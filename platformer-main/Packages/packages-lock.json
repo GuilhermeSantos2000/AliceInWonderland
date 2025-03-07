@@ -264,9 +264,9 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.unity.modules.androidjni": "1.0.0"
+        "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -336,7 +336,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "a5ccad084fbdaaf93ec911140de8cab4dfc3b633"
+      "hash": "bfdf9f9475725827c71df955607ce38059e5a7c4"
     },
     "com.videojogoslusofona.okapikit.samples": {
       "version": "https://github.com/VideojogosLusofona/OkapiKit.git#samples",
