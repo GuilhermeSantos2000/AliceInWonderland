@@ -425,7 +425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    Teleports object [Player] to the position of MadHatExit\n"
+    Teleports object [UNDEFINED] to an [UNDEFINED] position\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 0
@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Teleports object [Player] to the position of MadHatExit
+  _explanation: Teleports object [UNDEFINED] to an [UNDEFINED] position
   description: 
   enableAction: 1
   hasTags: 0

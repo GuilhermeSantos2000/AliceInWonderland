@@ -17,7 +17,9 @@ GameObject:
   - component: {fileID: 2324197700681669981}
   - component: {fileID: 6352896161693847881}
   - component: {fileID: 5582056039749815650}
-  - component: {fileID: 3248693484033249136}
+  - component: {fileID: 8421649941026607224}
+  - component: {fileID: -8977523678738606588}
+  - component: {fileID: -4244886654216063911}
   m_Layer: 9
   m_Name: UpscaleCandy
   m_TagString: Untagged
@@ -432,7 +434,8 @@ MonoBehaviour:
   _showInfo: 1
   _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
     changes the X scale of this, multiplying by 2, and changes the Y scale of this,
-    multiplying by 2.\n"
+    multiplying by 2.\n          changes the current velocity of UpscaleCandy's rigid
+    body by 275 along the global Y axis.\n          destroys this object\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 0
@@ -441,6 +444,10 @@ MonoBehaviour:
   actions:
   - delay: 0
     action: {fileID: 5582056039749815650}
+  - delay: 0
+    action: {fileID: -8977523678738606588}
+  - delay: 0
+    action: {fileID: -4244886654216063911}
   isTrigger: 0
   eventType: 0
   tags:
@@ -475,7 +482,7 @@ MonoBehaviour:
   positionY: {x: 0, y: 0}
   deltaY: {x: 2, y: 2}
   scaleWithTime: 0
---- !u!114 &3248693484033249136
+--- !u!114 &8421649941026607224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -492,3 +499,67 @@ MonoBehaviour:
   description: 
   hypertags:
   - {fileID: 11400000, guid: 9053f0c8cecf8594e911bd4ee15cf1c6, type: 2}
+  - {fileID: 11400000, guid: 948e0be5d51f1b7499d1b856aaac3224, type: 2}
+--- !u!114 &-8977523678738606588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744355103566363769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498532aa2f19d4942a1eb319f65735d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Changes the current velocity of UpscaleCandy's rigid body by 275
+    along the global Y axis.
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  movementComponent: {fileID: 0}
+  rigidBodyComponent: {fileID: 0}
+  changeType: 0
+  operation: 2
+  floatPlatformerOperation: 0
+  percentageValue: {x: 1, y: 1.5}
+  value: {x: 275, y: 275}
+  axis: 2
+  useRotation: 0
+  useRandom: 0
+  startAngle: 0
+  endAngle: 360
+  speedRange: {x: 100, y: 100}
+  minVelocity: {x: 100, y: 100}
+  maxVelocity: {x: 100, y: 100}
+  clampSpeed: 0
+  clampTo: {x: 0, y: 0}
+  fValue: 0
+  iValue: 0
+--- !u!114 &-4244886654216063911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744355103566363769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75877c0562c0e49a1475541c319262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Destroys this object
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  target: 0
+  targetObject: {fileID: 0}
+  tags: []

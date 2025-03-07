@@ -171,11 +171,6 @@ Transform:
   - {fileID: 8914126643463538119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &411533080 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5291060696459172393, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
-  m_PrefabInstance: {fileID: 1173333227575051180}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &411533081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4991384803085866607, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
@@ -207,8 +202,6 @@ GameObject:
   - component: {fileID: 743703801}
   - component: {fileID: 743703800}
   - component: {fileID: 743703802}
-  - component: {fileID: 743703804}
-  - component: {fileID: 743703803}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -997,56 +990,6 @@ MonoBehaviour:
   sprite: {fileID: 0}
   color: {r: 1, g: 1, b: 1, a: 1}
   boolState: 0
---- !u!114 &743703803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e75877c0562c0e49a1475541c319262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Destroys object DownscaleCandy
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: 3
-  targetObject: {fileID: 411533080}
-  tags: []
---- !u!114 &743703804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When a collision with a trigger with tags [Power-Up] starts:\n         
-    Destroys object DownscaleCandy\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 743703803}
-  isTrigger: 1
-  eventType: 0
-  tags:
-  - {fileID: 11400000, guid: 9053f0c8cecf8594e911bd4ee15cf1c6, type: 2}
 --- !u!1 &784092445
 GameObject:
   m_ObjectHideFlags: 0
@@ -13198,6 +13141,26 @@ CompositeCollider2D:
         Y: -3200000000
       - X: -7040000000
         Y: 3200000000
+      - X: 14720000000
+        Y: 3200000000
+      - X: 14720000000
+        Y: 640000128
+      - X: -1280000000
+        Y: 640000128
+      - X: -1280000128
+        Y: 640000000
+      - X: -1280000128
+        Y: -640000000
+      - X: -1280000000
+        Y: -640000128
+      - X: 17280000000
+        Y: -640000128
+      - X: 17280000000
+        Y: 640000128
+      - X: 15360000000
+        Y: 640000128
+      - X: 15360000000
+        Y: 3200000000
       - X: 22400000000
         Y: 3200000000
       - X: 22400000000
@@ -13214,18 +13177,6 @@ CompositeCollider2D:
         Y: 114
       - X: 17920000000
         Y: -3200000000
-    - - X: 17280000000
-        Y: 640000128
-      - X: -1280000000
-        Y: 640000128
-      - X: -1280000128
-        Y: 640000000
-      - X: -1280000128
-        Y: -640000000
-      - X: -1280000000
-        Y: -640000128
-      - X: 17280000000
-        Y: -640000128
     - - X: -1919999872
         Y: 38
       - X: -1920000000
@@ -13258,20 +13209,24 @@ CompositeCollider2D:
       - {x: 2304, y: -319.99997}
       - {x: 2304, y: 320}
       - {x: 3968, y: 319.99997}
-    - - {x: 2240, y: -319.99997}
+    - - {x: 1792, y: -319.99997}
+      - {x: -704, y: -319.99997}
+      - {x: -703.99994, y: 320}
+      - {x: 1472, y: 319.99997}
+      - {x: 1472, y: 64.000015}
+      - {x: -128.00002, y: 63.99997}
+      - {x: -127.99998, y: -64.000015}
+      - {x: 1728, y: -63.99998}
+      - {x: 1728, y: 64.000015}
+      - {x: 1536, y: 64.000046}
+      - {x: 1536, y: 320}
+      - {x: 2240, y: 319.99997}
+      - {x: 2240, y: -320}
       - {x: 1984, y: -319.99997}
       - {x: 1984, y: -191.99998}
       - {x: 1856, y: -191.99997}
       - {x: 1856, y: 0.0000114}
       - {x: 1792, y: -0.0000179}
-      - {x: 1792, y: -320}
-      - {x: -704, y: -319.99997}
-      - {x: -703.99994, y: 320}
-      - {x: 2240, y: 319.99997}
-    - - {x: 1728, y: -64.000015}
-      - {x: 1728, y: 64.000015}
-      - {x: -128.00002, y: 63.99997}
-      - {x: -127.99998, y: -64.000015}
     - - {x: -192.00002, y: -256}
       - {x: -192.00003, y: 0.0000114}
       - {x: -256, y: -0.0000179}
@@ -15352,6 +15307,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 23, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 35, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -15413,6 +15378,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -12, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 23, y: 2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 15
@@ -15492,6 +15467,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 23, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 35, y: 3, z: 0}
     second:
       serializedVersion: 2
@@ -15553,6 +15538,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -12, y: 4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 23, y: 4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 15
@@ -17234,7 +17229,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 379
+  - m_RefCount: 383
     m_Data: {fileID: 11400000, guid: d571222addb2f4c61bce982f00594616, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -17267,10 +17262,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 379
+  - m_RefCount: 383
     m_Data: {fileID: 21300000, guid: dce1da3fe3eee364d8f8788ab7740e2a, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 379
+  - m_RefCount: 383
     m_Data:
       e00: 1
       e01: 0
@@ -17325,7 +17320,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 379
+  - m_RefCount: 383
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -18179,6 +18174,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
+    - target: {fileID: -424128410016198452, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
+      propertyPath: _explanation
+      value: Changes the current velocity of Player's movement by 50%.
+      objectReference: {fileID: 0}
+    - target: {fileID: -424128410016198452, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
+      propertyPath: movementComponent
+      value: 
+      objectReference: {fileID: 743703790}
     - target: {fileID: 3869040164265317789, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: target
       value: 
@@ -18227,6 +18230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DownscaleCandy
       objectReference: {fileID: 0}
+    - target: {fileID: 6963494676225384698, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
+      propertyPath: _explanation
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18245,6 +18252,19 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
+    - target: {fileID: -8977523678738606588, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
+      propertyPath: _explanation
+      value: Changes the current velocity of Player's movement by a percentage in
+        the [100,150] range.
+      objectReference: {fileID: 0}
+    - target: {fileID: -8977523678738606588, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
+      propertyPath: movementComponent
+      value: 
+      objectReference: {fileID: 743703790}
+    - target: {fileID: -4244886654216063911, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
+      propertyPath: _explanation
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 744355103566363769, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: m_Name
       value: UpscaleCandy
@@ -18253,13 +18273,24 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 743703788}
+    - target: {fileID: 5582056039749815650, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
+      propertyPath: _explanation
+      value: Changes the X scale of object Player, multiplying by 2, and changes
+        the Y scale of object Player, multiplying by 2.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352896161693847881, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
+      propertyPath: _explanation
+      value: "When a collision with a bounding volume with tags [Player] starts:\n         
+        changes the X scale of object Player, multiplying by 2, and changes the Y
+        scale of object Player, multiplying by 2.\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 7981595822041116452, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1730
+      value: 641
       objectReference: {fileID: 0}
     - target: {fileID: 7981595822041116452, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -64
+      value: -127
       objectReference: {fileID: 0}
     - target: {fileID: 7981595822041116452, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18308,7 +18339,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1951125945037088094, guid: 66568ef2044a3654ab5971d3bb49d760, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1471
+      value: 1536
       objectReference: {fileID: 0}
     - target: {fileID: 1951125945037088094, guid: 66568ef2044a3654ab5971d3bb49d760, type: 3}
       propertyPath: m_LocalPosition.y
