@@ -16,17 +16,11 @@ GameObject:
   - component: {fileID: 7269714027202829306}
   - component: {fileID: 5443365610988523845}
   - component: {fileID: 2603375282929747443}
-  - component: {fileID: 1174335552769250416}
-  - component: {fileID: 5934301287538997987}
-  - component: {fileID: 5011040624378134394}
-  - component: {fileID: 8628607657103225924}
-  - component: {fileID: 3464498710210232751}
-  - component: {fileID: 2492817615044508714}
-  - component: {fileID: 4642952690600237380}
-  - component: {fileID: 644123754490773308}
-  - component: {fileID: 7208699786647651995}
-  - component: {fileID: 7034923015875204540}
-  - component: {fileID: 6635109800305055828}
+  - component: {fileID: 4375659962920292621}
+  - component: {fileID: 759195399412518448}
+  - component: {fileID: 8532637398245861496}
+  - component: {fileID: 4342581651292488502}
+  - component: {fileID: 6594217729716393654}
   m_Layer: 6
   m_Name: TimedPlatformNext
   m_TagString: Untagged
@@ -56,21 +50,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Enables component TimedPlatformNext (OkapiKit.TriggerOnStart)
+  _explanation: Toggles component TimedPlatformNext (OkapiKit.TriggerOnTimer)
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  target: {fileID: 1174335552769250416}
-  state: 0
+  target: {fileID: 4375659962920292621}
+  state: 2
 --- !u!1839735485 &8159311884927902228
 Tilemap:
   m_ObjectHideFlags: 0
@@ -430,87 +424,7 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 14.29
---- !u!114 &1174335552769250416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe33e4a0e2979294d8e04d307e34bb03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When this object is created:\n          toggles component TimedPlatformNext
-    (UnityEngine.Tilemap)\n          toggles component TimedPlatformNext (UnityEngine.PlatformEffector2D)\n         
-    toggles component TimedPlatformNext (UnityEngine.TilemapCollider2D)\n         
-    enables renderer TimedPlatformNext\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 3464498710210232751}
-  - delay: 0
-    action: {fileID: 2492817615044508714}
-  - delay: 0
-    action: {fileID: 4642952690600237380}
-  - delay: 0
-    action: {fileID: 644123754490773308}
---- !u!114 &5934301287538997987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    enables component TimedPlatformNext (OkapiKit.TriggerOnTimer)\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 0
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 5011040624378134394}
-  isTrigger: 0
-  eventType: 0
-  tags:
-  - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
---- !u!114 &5011040624378134394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Enables component TimedPlatformNext (OkapiKit.TriggerOnTimer)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 8628607657103225924}
-  state: 0
---- !u!114 &8628607657103225924
+--- !u!114 &4375659962920292621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -523,35 +437,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "After 1,5 seconds, trigger the actions::\n          toggles component
-    TimedPlatformNext (UnityEngine.Tilemap)\n          toggles component TimedPlatformNext
-    (UnityEngine.PlatformEffector2D)\n          toggles component TimedPlatformNext
-    (UnityEngine.TilemapCollider2D)\n          enables renderer TimedPlatformNext\n         
-    enables component TimedPlatformNext (OkapiKit.TriggerOnTimer)\n          toggles
-    component TimedPlatformNext (OkapiKit.TriggerOnStart)\n"
+  _explanation: "Every 0,1 seconds, trigger the actions::\n          enables component
+    TimedPlatformNext (UnityEngine.Tilemap)\n          enables component TimedPlatformNext
+    (UnityEngine.TilemapCollider2D)\n          enables component TimedPlatformNext
+    (OkapiKit.ActionChangeComponentState)\n          enables renderer TimedPlatformNext\n
+    then, at 0,1 seconds, \n          toggles component TimedPlatformNext (OkapiKit.TriggerOnTimer)\n"
   description: 
   enableTrigger: 1
-  allowRetrigger: 0
+  allowRetrigger: 1
   hasPreconditions: 0
   preConditions: []
   actions:
   - delay: 0
-    action: {fileID: 3464498710210232751}
+    action: {fileID: 759195399412518448}
   - delay: 0
-    action: {fileID: 2492817615044508714}
+    action: {fileID: 8532637398245861496}
   - delay: 0
-    action: {fileID: 4642952690600237380}
+    action: {fileID: 4342581651292488502}
   - delay: 0
-    action: {fileID: 644123754490773308}
-  - delay: 0
-    action: {fileID: 6635109800305055828}
-  - delay: 0
-    action: {fileID: 7208699786647651995}
+    action: {fileID: 6594217729716393654}
+  - delay: 0.1
+    action: {fileID: 4736321186114836327}
   startTriggered: 0
   initialDelayEnable: 0
   initialDelay: {x: 5, y: 5}
-  timeInterval: {x: 1.5, y: 1.5}
---- !u!114 &3464498710210232751
+  timeInterval: {x: 0.1, y: 0.1}
+--- !u!114 &759195399412518448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -564,7 +475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Toggles component TimedPlatformNext (UnityEngine.Tilemap)
+  _explanation: Enables component TimedPlatformNext (UnityEngine.Tilemap)
   description: 
   enableAction: 1
   hasTags: 0
@@ -572,8 +483,8 @@ MonoBehaviour:
   hasConditions: 0
   actionConditions: []
   target: {fileID: 8159311884927902228}
-  state: 2
---- !u!114 &2492817615044508714
+  state: 0
+--- !u!114 &8532637398245861496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -586,29 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Toggles component TimedPlatformNext (UnityEngine.PlatformEffector2D)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 2603375282929747443}
-  state: 2
---- !u!114 &4642952690600237380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component TimedPlatformNext (UnityEngine.TilemapCollider2D)
+  _explanation: Enables component TimedPlatformNext (UnityEngine.TilemapCollider2D)
   description: 
   enableAction: 1
   hasTags: 0
@@ -616,8 +505,30 @@ MonoBehaviour:
   hasConditions: 0
   actionConditions: []
   target: {fileID: 7269714027202829306}
-  state: 2
---- !u!114 &644123754490773308
+  state: 0
+--- !u!114 &4342581651292488502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8637293495144349601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Enables component TimedPlatformNext (OkapiKit.ActionChangeComponentState)
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  target: {fileID: 4342581651292488502}
+  state: 0
+--- !u!114 &6594217729716393654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -640,82 +551,3 @@ MonoBehaviour:
   renderer: {fileID: 7472920875714884943}
   changeType: 0
   visibility: 0
---- !u!114 &7208699786647651995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component TimedPlatformNext (OkapiKit.TriggerOnStart)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 1174335552769250416}
-  state: 2
---- !u!114 &7034923015875204540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46216fa097ecb754babda0f26d640422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "Every 3 seconds, trigger the actions::\n          toggles component
-    TimedPlatformNext (UnityEngine.Tilemap)\n          toggles component TimedPlatformNext
-    (UnityEngine.PlatformEffector2D)\n          toggles component TimedPlatformNext
-    (UnityEngine.TilemapCollider2D)\n          enables renderer TimedPlatformNext\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 3464498710210232751}
-  - delay: 0
-    action: {fileID: 2492817615044508714}
-  - delay: 0
-    action: {fileID: 4642952690600237380}
-  - delay: 0
-    action: {fileID: 644123754490773308}
-  startTriggered: 0
-  initialDelayEnable: 0
-  initialDelay: {x: 5, y: 5}
-  timeInterval: {x: 3, y: 3}
---- !u!114 &6635109800305055828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637293495144349601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Enables component TimedPlatformNext (OkapiKit.TriggerOnTimer)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 7034923015875204540}
-  state: 0

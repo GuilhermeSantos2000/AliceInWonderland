@@ -119,22 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &106378089 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1820320489}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &106378090 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1820320489}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &242734817 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6484916996543296570, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
@@ -146,7 +130,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 4872771842179114788}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
@@ -200,7 +184,6 @@ Transform:
   - {fileID: 1898470258}
   - {fileID: 411533081}
   - {fileID: 1520091839658133076}
-  - {fileID: 106378089}
   - {fileID: 242734817}
   - {fileID: 5149781065686454797}
   - {fileID: 3040938141508632674}
@@ -17429,84 +17412,6 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 14.29
---- !u!1001 &1820320489
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 384344962}
-    m_Modifications:
-    - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_Name
-      value: TimedPlatformFirst (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2200806934423732546, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 242734828}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (UnityEngine.Tilemap)\n          toggles component TimedPlatformFirst
-        (UnityEngine.TilemapCollider2D)\n          toggles component TimedPlatformFirst
-        (UnityEngine.PlatformEffector2D)\n          toggles renderer TimedPlatformFirst\n         
-        toggles component TimedPlatformFirst (OkapiKit.TriggerOnTimer)\n         
-        toggles component TimedPlatformFirst (OkapiKit.TriggerOnTimer)\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: actions.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: actions.Array.data[5].action
-      value: 
-      objectReference: {fileID: 106378090}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -555
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
 --- !u!1 &1832671714
 GameObject:
   m_ObjectHideFlags: 0
@@ -19026,9 +18931,17 @@ PrefabInstance:
       value: TimedPlatformFirst
       objectReference: {fileID: 0}
     - target: {fileID: 2200806934423732546, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: state
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2200806934423732546, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 242734828}
+    - target: {fileID: 2200806934423732546, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Enables component TimedPlatformNext (OkapiKit.ActionChangeComponentState)
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: "Every 1,5 seconds, trigger the actions::\n          toggles component
@@ -19262,6 +19175,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
+    - target: {fileID: 759195399412518448, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: state
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 759195399412518448, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformNext (UnityEngine.Tilemap)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4342581651292488502, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: state
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4342581651292488502, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformNext (OkapiKit.ActionChangeComponentState)
+      objectReference: {fileID: 0}
     - target: {fileID: 6484916996543296570, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -536
@@ -19301,6 +19230,22 @@ PrefabInstance:
     - target: {fileID: 6484916996543296570, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594217729716393654, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: visibility
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594217729716393654, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: _explanation
+      value: Toggles renderer TimedPlatformNext
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532637398245861496, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: state
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532637398245861496, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformNext (UnityEngine.TilemapCollider2D)
       objectReference: {fileID: 0}
     - target: {fileID: 8637293495144349601, guid: a87b0cef807c8b846bf67948997e792a, type: 3}
       propertyPath: m_Name
