@@ -143,8 +143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    changes the X scale of this, multiplying by 0,5, and changes the Y scale of this,
-    multiplying by 0,5.\n          changes the current velocity of [UNKNOWN] by a
+    changes the X scale of this, multiplying by 0.5, and changes the Y scale of this,
+    multiplying by 0.5.\n          changes the current velocity of [UNKNOWN] by a
     value between -275 and -125 along the global Y axis.\n          Note that this
     changes the velocity parameters of the movement, not the current velocity.\n         
     For that, use the 'Change Rigid Body' action.\n          destroys this object\n"
@@ -177,8 +177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Changes the X scale of this, multiplying by 0,5, and changes the
-    Y scale of this, multiplying by 0,5.
+  _explanation: Changes the X scale of this, multiplying by 0.5, and changes the
+    Y scale of this, multiplying by 0.5.
   description: 
   enableAction: 1
   hasTags: 0
