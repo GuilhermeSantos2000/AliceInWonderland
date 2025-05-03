@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 4324093058864702132}
   - component: {fileID: 7130747515138734600}
   - component: {fileID: 4881523407772894457}
+  - component: {fileID: -2555422748009645848}
   m_Layer: 6
   m_Name: TimedPlatformFirst
   m_TagString: Untagged
@@ -129,7 +130,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 32, y: 0}
@@ -231,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "Every 1,5 seconds, trigger the actions::\n          toggles component
+  _explanation: "Every 1.5 seconds, trigger the actions::\n          toggles component
     TimedPlatformFirst (UnityEngine.BoxCollider2D)\n          toggles renderer TimedPlatformFirst\n         
     toggles component TimedPlatformFirst (OkapiKit.TriggerOnTimer)\n          toggles
     renderer TimedPlatformFirst2\n          toggles component TimedPlatformFirst
@@ -339,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "Every 1,5 seconds, trigger the actions::\n          toggles component
+  _explanation: "Every 1.5 seconds, trigger the actions::\n          toggles component
     TimedPlatformFirst (UnityEngine.BoxCollider2D)\n          toggles renderer TimedPlatformFirst\n         
     toggles renderer TimedPlatformFirst2\n          toggles component TimedPlatformFirst
     (OkapiKit.TriggerOnTimer)\n"
@@ -383,6 +384,25 @@ MonoBehaviour:
   actionConditions: []
   target: {fileID: 7130747515138734600}
   state: 2
+--- !u!251 &-2555422748009645848
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804767963594483940}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &6143925231783627019
 GameObject:
   m_ObjectHideFlags: 0
