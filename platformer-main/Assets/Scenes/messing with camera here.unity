@@ -2115,7 +2115,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d7a12a7c307c58e43abc2d6ee1d101e7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4750,7 +4750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetEntity: {fileID: 227440406}
   offset: {x: 0, y: 30, z: 0}
-  maxspeed: 500
+  maxspeed: 800
   pandown: 30
 --- !u!1001 &1477146828
 PrefabInstance:

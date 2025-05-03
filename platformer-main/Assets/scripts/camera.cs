@@ -21,9 +21,9 @@ public class camera : MonoBehaviour
         currentTarget.z = transform.position.z; // this keeps the camera from moving on the z axis
         currentTarget = currentTarget + offset; // offset in case we wanna use it later
 
-        if (Vector3.Distance(transform.position, currentTarget) > 200f)
+        if (Vector3.Distance(transform.position, currentTarget) > 400f)
         {
-            transform.position = currentTarget; // this will snap the camera back to the target if it is too far away (currently set to 200f)
+            transform.position = currentTarget; // this will snap the camera back to the target if it is too far away (currently set to 400f)
         }
         else
         {
