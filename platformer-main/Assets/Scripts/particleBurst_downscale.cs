@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class particleBurst : MonoBehaviour
+public class particleBurst_dowscale : MonoBehaviour
 {
    [SerializeField] private ParticleSystem burstParticleSystem;
    [SerializeField] private SpriteRenderer gem;
