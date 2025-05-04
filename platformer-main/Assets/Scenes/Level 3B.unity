@@ -8143,7 +8143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Enables renderer CheshirePlatforms
+  _explanation: Toggles renderer CheshirePlatforms
   description: 
   enableAction: 1
   hasTags: 0
@@ -8152,7 +8152,7 @@ MonoBehaviour:
   actionConditions: []
   renderer: {fileID: 1890770270}
   changeType: 0
-  visibility: 0
+  visibility: 2
 --- !u!114 &1890770273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8232,11 +8232,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When key F is pressed:\n          toggles component CheshirePlatforms
-    (UnityEngine.Tilemap)\n          toggles component CheshirePlatforms (UnityEngine.TilemapCollider2D)\n         
-    toggles component CheshirePlatforms (UnityEngine.PlatformEffector2D)\n         
-    enables renderer CheshirePlatforms\n          toggles component CheshirePlatforms
-    (OkapiKit.TriggerOnTimer)\n"
+  _explanation: "When key F is pressed (this can only happen every 20 seconds):\n         
+    toggles component CheshirePlatforms (UnityEngine.Tilemap)\n          toggles
+    component CheshirePlatforms (UnityEngine.TilemapCollider2D)\n          toggles
+    component CheshirePlatforms (UnityEngine.PlatformEffector2D)\n          toggles
+    renderer CheshirePlatforms\n          toggles component CheshirePlatforms (OkapiKit.TriggerOnTimer)\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -8260,8 +8260,8 @@ MonoBehaviour:
   deadArea: {x: -0.2, y: 0.2}
   continuous: 0
   negate: 0
-  useCooldown: 0
-  cooldown: 15
+  useCooldown: 1
+  cooldown: 20
   elseActions: []
 --- !u!114 &1890770279
 MonoBehaviour:
@@ -8301,7 +8301,7 @@ MonoBehaviour:
   _explanation: "Every 10 seconds, trigger the actions::\n          toggles component
     CheshirePlatforms (UnityEngine.Tilemap)\n          toggles component CheshirePlatforms
     (UnityEngine.TilemapCollider2D)\n          toggles component CheshirePlatforms
-    (UnityEngine.PlatformEffector2D)\n          enables renderer CheshirePlatforms\n"
+    (UnityEngine.PlatformEffector2D)\n          toggles renderer CheshirePlatforms\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
