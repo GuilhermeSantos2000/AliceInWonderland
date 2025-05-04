@@ -6400,6 +6400,7 @@ GameObject:
   - component: {fileID: 1378518352}
   - component: {fileID: 1378518355}
   - component: {fileID: 1378518356}
+  - component: {fileID: 1378518357}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6532,7 +6533,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378518351}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9acff5f09ab58e479b806a70160b1c0, type: 3}
   m_Name: 
@@ -6561,6 +6562,24 @@ MonoBehaviour:
     width: 200
     height: 200
   cameraLimits: {fileID: 2092555407}
+--- !u!114 &1378518357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378518351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549e8ef1fb9f57146b88ad40487af230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetEntity: {fileID: 1728620708}
+  offset: {x: 0, y: 30, z: 0}
+  maxspeed: 1000
+  pandown: 0
+  minBounds: {x: -127, y: -24}
+  maxBounds: {x: 1658, y: 60}
 --- !u!1 &1485806285
 GameObject:
   m_ObjectHideFlags: 0
@@ -7004,6 +7023,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &1728620708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 196796789101100214, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+  m_PrefabInstance: {fileID: 1264726664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1738328225
 GameObject:
   m_ObjectHideFlags: 0
