@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 1757640488813310578}
   - component: {fileID: 3115639101901788866}
   - component: {fileID: 5200115096872959006}
-  - component: {fileID: 4476560311946370893}
-  - component: {fileID: -5822718645903432519}
+  - component: {fileID: -8672439855419472698}
   m_Layer: 9
   m_Name: MadHatEntry
   m_TagString: Untagged
@@ -65,7 +64,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -136,7 +135,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4476560311946370893
+--- !u!114 &-8672439855419472698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,48 +144,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1926081483254130051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
+  m_Script: {fileID: 11500000, guid: 614581e4c46668a4db712a5829abf83f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    Teleports object [UNDEFINED] to an [UNDEFINED] position\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 0
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: -5822718645903432519}
-  isTrigger: 0
-  eventType: 0
-  tags:
-  - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
---- !u!114 &-5822718645903432519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926081483254130051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0385faaee562d5e489301afa1669cb30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Teleports object [UNDEFINED] to an [UNDEFINED] position
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  subject: 1
-  subjectTransform: {fileID: 0}
-  subjectTag: {fileID: 0}
-  teleportTarget: 0
-  targetTransforms:
-  - {fileID: 0}
-  targetTags: []
+  objectToTeleport: {fileID: 0}
+  teleportTarget: {fileID: 0}

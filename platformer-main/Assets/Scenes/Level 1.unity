@@ -472,16 +472,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!4 &280373660 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
-  m_PrefabInstance: {fileID: 1264726664}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &305094233 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 744355103566363769, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
-  m_PrefabInstance: {fileID: 3167009848883395082}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &384344960
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +610,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &794119389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5177742486434129318, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+  m_PrefabInstance: {fileID: 1264726664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &826332586
 GameObject:
   m_ObjectHideFlags: 0
@@ -10011,6 +10006,11 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 14.29
+--- !u!1 &1780138792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1926081483254130051, guid: d464f726d80ae56468a44aa59036729f, type: 3}
+  m_PrefabInstance: {fileID: 8269298128415392812}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1832671714
 GameObject:
   m_ObjectHideFlags: 0
@@ -10915,10 +10915,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7981595822041116452, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 872802021}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 744355103566363769, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5149781065686454805}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
 --- !u!1001 &3316226606118327911
 PrefabInstance:
@@ -10990,26 +10987,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7981595822041116452, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
   m_PrefabInstance: {fileID: 3167009848883395082}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &5149781065686454804 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5603638446469317330, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
-  m_PrefabInstance: {fileID: 3167009848883395082}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5149781065686454805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305094233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 576181f85c6618a418e64f2608518187, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  burstParticleSystem: {fileID: 872802023}
-  gem: {fileID: 5149781065686454804}
-  burstAvailable: 1
 --- !u!1001 &8269298128415392812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11018,18 +10995,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -5822718645903432519, guid: d464f726d80ae56468a44aa59036729f, type: 3}
-      propertyPath: _explanation
-      value: Teleports object [Player ] to the position of MadHatExit
-      objectReference: {fileID: 0}
-    - target: {fileID: -5822718645903432519, guid: d464f726d80ae56468a44aa59036729f, type: 3}
-      propertyPath: subjectTransform
-      value: 
-      objectReference: {fileID: 280373660}
-    - target: {fileID: -5822718645903432519, guid: d464f726d80ae56468a44aa59036729f, type: 3}
-      propertyPath: 'targetTransforms.Array.data[0]'
+    - target: {fileID: -8672439855419472698, guid: d464f726d80ae56468a44aa59036729f, type: 3}
+      propertyPath: teleportTarget
       value: 
       objectReference: {fileID: 8914126643463538119}
+    - target: {fileID: -8672439855419472698, guid: d464f726d80ae56468a44aa59036729f, type: 3}
+      propertyPath: teleportTrigger
+      value: 
+      objectReference: {fileID: 1780138792}
+    - target: {fileID: -8672439855419472698, guid: d464f726d80ae56468a44aa59036729f, type: 3}
+      propertyPath: objectToTeleport
+      value: 
+      objectReference: {fileID: 794119389}
     - target: {fileID: 1757640488813310578, guid: d464f726d80ae56468a44aa59036729f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1440
@@ -11074,13 +11051,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: MadHatEntry
       objectReference: {fileID: 0}
-    - target: {fileID: 4476560311946370893, guid: d464f726d80ae56468a44aa59036729f, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        Teleports object [Player] to the position of MadHatExit\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4476560311946370893, guid: d464f726d80ae56468a44aa59036729f, type: 3}
-      propertyPath: allowRetrigger
+    - target: {fileID: 3115639101901788866, guid: d464f726d80ae56468a44aa59036729f, type: 3}
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5200115096872959006, guid: d464f726d80ae56468a44aa59036729f, type: 3}
