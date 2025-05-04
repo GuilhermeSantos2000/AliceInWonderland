@@ -119,7 +119,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &162730277
+--- !u!4 &224845589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+  m_PrefabInstance: {fileID: 698188990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &224845590 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+  m_PrefabInstance: {fileID: 698188990}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &288152769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 196796789101100214, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+  m_PrefabInstance: {fileID: 1281724185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &302725234 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+  m_PrefabInstance: {fileID: 364172697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &348512954 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+  m_PrefabInstance: {fileID: 1526660112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &364172697
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -127,55 +158,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (4).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (4) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (4)\n          toggles component TimedPlatformFirst (4)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (4).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (4).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (4) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (4)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)\n"
+      value: Toggles trigger TimedPlatformFirst.On Collision
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 828
+      value: 1623
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 382
+      value: 301
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.z
@@ -209,36 +206,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (4) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
---- !u!4 &224845589 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 698188990}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &224845590 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 698188990}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &348512954 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1526660112}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &384344960
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,10 +263,11 @@ Transform:
   - {fileID: 1898470258}
   - {fileID: 411533081}
   - {fileID: 1520091839658133076}
-  - {fileID: 1811147090}
+  - {fileID: 302725234}
   - {fileID: 571235002}
   - {fileID: 348512954}
-  - {fileID: 1928249885}
+  - {fileID: 1296413620}
+  - {fileID: 2005995150}
   - {fileID: 224845589}
   - {fileID: 1797024670}
   - {fileID: 1708896115}
@@ -310,142 +283,105 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4991384803085866607, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
   m_PrefabInstance: {fileID: 1173333227575051180}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &540185129
-GameObject:
+--- !u!1001 &483666807
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 540185130}
-  - component: {fileID: 540185132}
-  - component: {fileID: 540185131}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &540185130
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540185129}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5731064, y: 0.5731064, z: 0.5731064}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1430927488}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 125, y: 242}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &540185131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540185129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Press F to Show Hidden Platform
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: -103.47627, y: 0, z: -99.09091, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &540185132
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540185129}
-  m_CullTransparentMesh: 1
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 384344962}
+    m_Modifications:
+    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_Name
+      value: TimedPlatformFirst (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles renderer TimedPlatformFirst (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: "When a collision with a bounding volume with tags [Player] starts:\n         
+        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n         
+        toggles trigger TimedPlatformFirst (6).On Collision\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
+        TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)\n          toggles renderer
+        TimedPlatformFirst (6)\n          toggles component TimedPlatformFirst (6)
+        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
+        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n         
+        toggles trigger TimedPlatformFirst (6).On Collision\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles trigger TimedPlatformFirst (6).On Collision
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
+        TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)\n          toggles renderer
+        TimedPlatformFirst (6)\n          toggles renderer TimedPlatformFirst2\n         
+        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 711
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 471
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
 --- !u!4 &571235002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
@@ -648,7 +584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3281
+      value: 3312
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.y
@@ -695,810 +631,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
---- !u!1 &743703784
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 743703788}
-  - component: {fileID: 743703787}
-  - component: {fileID: 743703786}
-  - component: {fileID: 743703785}
-  - component: {fileID: 743703791}
-  - component: {fileID: 743703789}
-  - component: {fileID: 743703795}
-  - component: {fileID: 743703790}
-  - component: {fileID: 743703794}
-  - component: {fileID: 743703793}
-  - component: {fileID: 743703792}
-  - component: {fileID: 743703797}
-  - component: {fileID: 743703796}
-  - component: {fileID: 743703798}
-  - component: {fileID: 743703799}
-  - component: {fileID: 743703801}
-  - component: {fileID: 743703800}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!70 &743703785
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 2, y: 21}
-  m_Size: {x: 20, y: 42}
-  m_Direction: 0
---- !u!50 &743703786
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!212 &743703787
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 4334783836991956000, guid: 1e757df3f06fd944e949e7ec47fa29f1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 16, y: 15}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &743703788
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -608, y: 655, z: 0}
-  m_LocalScale: {x: 1.3663908, y: 2.637134, z: 1.3663908}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2071939495}
-  - {fileID: 954071756}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &743703789
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6577285de641ad4c966ec9169599e3c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &743703790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3088c41d9f9a9f4ab3a63bd3c155b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 'Platformer controller
-
-    ----------------
-
-    Platformer movement;
-    horizontal speed is 250 units per second.
-
-    Horizontal movement will be controlled
-    by the [Horizontal] axis.
-
-    Ground check is going to use collider GroundCheck,
-    the ground layer mask defines what is considered solid ground.
-
-    When there''s
-    no solid ground below character, the character will start falling after 0,15s,
-    with a gravity scale of 2.
-
-    The character''s trajectory can be modified mid-air.
-
-    When
-    in the air, the character''s collider will be Player(Player (UnityEngine.BoxCollider2D)),
-    and on the ground will be Player(Player (UnityEngine.CapsuleCollider2D)).
-
-    The
-    character will jump by holding the [Space] button.
-
-    The vertical velocity
-    will be 550 units/second while jump is pressed, during a maximum of 0,2 seconds.
-
-    Jump
-    height will be between 107 to 217 units (from 0,39 to 0,59 seconds to top of
-    trajectory).
-
-    If the character presses the jump button up to 0,1s before
-    hitting the ground, it will jump automatically again.
-
-    This controller also
-    controls some visuals:
-
-    When the player intent is to go left, the horizontal
-    scale of this object will be inverted.
-
-    Some values will be set on animator
-    Player:
-
-    Horizontal velocity will be set to parameter VelocityX.
-
-    Absolute
-    horizontal velocity will be set to parameter AbsVelocityX.
-
-    Vertical velocity
-    will be set to parameter VelocityY.
-
-    Absolute vertical velocity will be set
-    to parameter AbsVelocityY.
-
-    Grounded state will be set to parameter IsGrounded.
-
-'
-  description: Platformer controller
-  hasConditions: 0
-  conditions: []
-  speed: {x: 250, y: 550}
-  horizontalInputType: 0
-  horizontalAxis: Horizontal
-  horizontalButtonPositive: Right
-  horizontalButtonNegative: Left
-  horizontalKeyPositive: 275
-  horizontalKeyNegative: 276
-  gravityScale: 2
-  useTerminalVelocity: 0
-  terminalVelocity: 5
-  coyoteTime: 0.15
-  jumpBehaviour: 2
-  maxJumpCount: 1
-  jumpBufferingTime: 0.1
-  jumpHoldMaxTime: 0.2
-  jumpInputType: 2
-  jumpAxis: Vertical
-  jumpButton: Jump
-  jumpKey: 32
-  enableAirControl: 1
-  airCollider: {fileID: 743703791}
-  groundCollider: {fileID: 743703785}
-  glideBehaviour: 0
-  glideMaxTime: 3.4028235e+38
-  maxGlideSpeed: 50
-  glideInputType: 2
-  glideAxis: Vertical
-  glideButton: Jump
-  glideKey: 32
-  groundCheckCollider: {fileID: 2071939494}
-  groundLayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  flipBehaviour: 4
-  useAnimator: 1
-  animator: {fileID: 743703789}
-  horizontalVelocityParameter: VelocityX
-  absoluteHorizontalVelocityParameter: AbsVelocityX
-  verticalVelocityParameter: VelocityY
-  absoluteVerticalVelocityParameter: AbsVelocityY
-  isGroundedParameter: IsGrounded
-  isGlidingParameter: 
---- !u!61 &743703791
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 2, y: 21}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 64, y: 60}
-    newSize: {x: 16, y: 15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 12, y: 42}
-  m_EdgeRadius: 0
---- !u!114 &743703792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 302ff7b812c0d7846bbbf5b0db22ec81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Sets Player's sprite color to RGBA(0.718, 0.294, 0.335, 1.000)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 743703787}
-  changeType: 1
-  sprite: {fileID: 0}
-  color: {r: 0.7176471, g: 0.29411766, b: 0.3346289, a: 1}
-  boolState: 0
---- !u!114 &743703793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 302ff7b812c0d7846bbbf5b0db22ec81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Sets Player's sprite color to RGBA(1.000, 1.000, 1.000, 1.000)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 743703787}
-  changeType: 1
-  sprite: {fileID: 0}
-  color: {r: 1, g: 1, b: 1, a: 1}
-  boolState: 0
---- !u!114 &743703794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3203f38d4afc6a4283618fa1df06ecc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When (IsGrounded(Player) and (IsGrounded(Player):\n          sets
-    Player's sprite color to RGBA(1.000, 1.000, 1.000, 1.000)\nelse\n          sets
-    Player's sprite color to RGBA(0.718, 0.294, 0.335, 1.000)\n\nThis trigger will
-    execute only when the conditions change and they are all true."
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 743703793}
-  continuous: 0
-  conditions:
-  - negate: 0
-    valueHandler: {fileID: 0}
-    variable: {fileID: 0}
-    valueType: 12
-    tag: {fileID: 0}
-    tagCountRangeEnabled: 0
-    tagCountRange: 0
-    sourceTransform: {fileID: 0}
-    rigidBody: {fileID: 0}
-    axis: 0
-    probe: {fileID: 0}
-    movementPlatformer: {fileID: 743703790}
-    comparison: 0
-    value: 0
-    comparisonValueHandler: {fileID: 0}
-    comparisonVariable: {fileID: 0}
-    percentageCompare: 0
-    tile: {fileID: 0}
-    tileSet: {fileID: 0}
-  - negate: 0
-    valueHandler: {fileID: 0}
-    variable: {fileID: 0}
-    valueType: 12
-    tag: {fileID: 0}
-    tagCountRangeEnabled: 0
-    tagCountRange: 0
-    sourceTransform: {fileID: 0}
-    rigidBody: {fileID: 0}
-    axis: 0
-    probe: {fileID: 0}
-    movementPlatformer: {fileID: 743703790}
-    comparison: 0
-    value: 0
-    comparisonValueHandler: {fileID: 0}
-    comparisonVariable: {fileID: 0}
-    percentageCompare: 0
-    tile: {fileID: 0}
-    tileSet: {fileID: 0}
-  elseActions:
-  - delay: 0
-    action: {fileID: 743703792}
---- !u!114 &743703795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6fc8a1e9dd21634a9cb00402422ec6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 
-  description: 
-  hypertags:
-  - {fileID: 11400000, guid: a6867e8f47561dd47addd221d82d3e1b, type: 2}
---- !u!114 &743703796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 498532aa2f19d4942a1eb319f65735d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 'Select a random velocity between (400.00, 500.00) and (400.00, 500.00)
-    and set it to Player''s movement, and clamps the speed to be between [400,650].
-
-    Note
-    that this changes the velocity parameters of the movement, not the current velocity.
-
-    For
-    that, use the ''Change Rigid Body'' action.'
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions:
-  - negate: 0
-    valueHandler: {fileID: 0}
-    variable: {fileID: 0}
-    valueType: 0
-    tag: {fileID: 0}
-    tagCountRangeEnabled: 0
-    tagCountRange: 0
-    sourceTransform: {fileID: 0}
-    rigidBody: {fileID: 0}
-    axis: 0
-    probe: {fileID: 0}
-    movementPlatformer: {fileID: 0}
-    comparison: 0
-    value: 0
-    comparisonValueHandler: {fileID: 0}
-    comparisonVariable: {fileID: 0}
-    percentageCompare: 0
-    tile: {fileID: 0}
-    tileSet: {fileID: 0}
-  movementComponent: {fileID: 743703790}
-  rigidBodyComponent: {fileID: 0}
-  changeType: 0
-  operation: 0
-  floatPlatformerOperation: 0
-  percentageValue: {x: 1, y: 1}
-  value: {x: 400, y: 500}
-  axis: 4
-  useRotation: 0
-  useRandom: 0
-  startAngle: 0
-  endAngle: 360
-  speedRange: {x: 400, y: 500}
-  minVelocity: {x: 400, y: 500}
-  maxVelocity: {x: 400, y: 500}
-  clampSpeed: 1
-  clampTo: {x: 400, y: 650}
-  fValue: 0
-  iValue: 0
---- !u!114 &743703797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac24d8e98e97620458dc0c6fbe26a958, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "Run Button Down\n----------------\nWhen button Run is pressed:\n         
-    select a random velocity between (400.00, 500.00) and (400.00, 500.00) and set
-    it to Player's movement, and clamps the speed to be between [400,650].\n         
-    Note that this changes the velocity parameters of the movement, not the current
-    velocity.\n          For that, use the 'Change Rigid Body' action.\nelse\n         
-    select a random velocity between (250.00, 500.00) and (250.00, 500.00) and set
-    it to Player's movement.\n          Note that this changes the velocity parameters
-    of the movement, not the current velocity.\n          For that, use the 'Change
-    Rigid Body' action.\n"
-  description: Run Button Down
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 743703796}
-  inputType: 0
-  buttonName: Run
-  key: 0
-  axis: 
-  deadArea: {x: -0.2, y: 0.2}
-  continuous: 0
-  negate: 0
-  useCooldown: 0
-  cooldown: 1
-  elseActions:
-  - delay: 0
-    action: {fileID: 743703798}
---- !u!114 &743703798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 498532aa2f19d4942a1eb319f65735d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 'Select a random velocity between (250.00, 500.00) and (250.00, 500.00)
-    and set it to Player''s movement.
-
-    Note that this changes the velocity parameters
-    of the movement, not the current velocity.
-
-    For that, use the ''Change Rigid
-    Body'' action.'
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  movementComponent: {fileID: 743703790}
-  rigidBodyComponent: {fileID: 0}
-  changeType: 0
-  operation: 0
-  floatPlatformerOperation: 0
-  percentageValue: {x: 1, y: 1}
-  value: {x: 1, y: 1}
-  axis: 0
-  useRotation: 0
-  useRandom: 0
-  startAngle: 0
-  endAngle: 360
-  speedRange: {x: 200, y: 500}
-  minVelocity: {x: 250, y: 500}
-  maxVelocity: {x: 250, y: 500}
-  clampSpeed: 0
-  clampTo: {x: 0, y: 0}
-  fValue: 0
-  iValue: 0
---- !u!96 &743703799
-TrailRenderer:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Time: 5
-  m_PreviewTimeScale: 1
-  m_Parameters:
-    serializedVersion: 3
-    widthMultiplier: 3
-    widthCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    colorGradient:
-      serializedVersion: 2
-      key0: {r: 0.049437948, g: 1, b: 0.0141509175, a: 1}
-      key1: {r: 0.078431375, g: 0.97647065, b: 0.019607844, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_ColorSpace: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    numCornerVertices: 0
-    numCapVertices: 0
-    alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
-    shadowBias: 0.5
-    generateLightingData: 0
-  m_MinVertexDistance: 0.1
-  m_MaskInteraction: 0
-  m_Autodestruct: 0
-  m_Emitting: 1
-  m_ApplyActiveColorSpace: 1
---- !u!114 &743703800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64028e521c67c154e9f5b14c963be0e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles Player's trail renderer emission
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 743703799}
-  changeType: 0
-  emitter: 2
---- !u!114 &743703801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743703784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac24d8e98e97620458dc0c6fbe26a958, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "Trail Render Enable Disable\n----------------\nWhen key T is pressed:\n         
-    toggles Player's trail renderer emission\n"
-  description: Trail Render Enable Disable
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 743703800}
-  inputType: 1
-  buttonName: 
-  key: 116
-  axis: 
-  deadArea: {x: -0.2, y: 0.2}
-  continuous: 0
-  negate: 0
-  useCooldown: 0
-  cooldown: 1
-  elseActions: []
 --- !u!1 &784092445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,102 +1032,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &954071755
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 954071756}
-  - component: {fileID: 954071757}
-  - component: {fileID: 954071758}
-  m_Layer: 8
-  m_Name: ExitCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &954071756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954071755}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 743703788}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &954071757
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954071755}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 2, y: 20}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 20, y: 20}
-  m_EdgeRadius: 0
---- !u!114 &954071758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954071755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6fc8a1e9dd21634a9cb00402422ec6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 
-  description: 
-  hypertags:
-  - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
 --- !u!1 &1004382348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,7 +1066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -386, y: 33}
+  m_AnchoredPosition: {x: -457, y: 73}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004382350
@@ -2357,6 +1393,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+--- !u!1001 &1281724185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -612.46063
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 665.8528
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177742486434129318, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Name
+      value: 'Player '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+--- !u!4 &1296413620 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+  m_PrefabInstance: {fileID: 1662816171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1310153699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2581,6 +1679,7 @@ GameObject:
   - component: {fileID: 1378518352}
   - component: {fileID: 1378518355}
   - component: {fileID: 1378518356}
+  - component: {fileID: 1378518357}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2713,7 +1812,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378518351}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9acff5f09ab58e479b806a70160b1c0, type: 3}
   m_Name: 
@@ -2742,6 +1841,22 @@ MonoBehaviour:
     width: 200
     height: 200
   cameraLimits: {fileID: 2092555407}
+--- !u!114 &1378518357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378518351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549e8ef1fb9f57146b88ad40487af230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetEntity: {fileID: 288152769}
+  offset: {x: 0, y: 30, z: 0}
+  maxspeed: 1000
+  pandown: 30
 --- !u!1 &1405146478
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,7 +2314,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 540185130}
   - {fileID: 1004382349}
   - {fileID: 2022107517}
   m_Father: {fileID: 0}
@@ -3261,11 +2375,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1263
+      value: 1377
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 169
+      value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3446,6 +2560,105 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1662816171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 384344962}
+    m_Modifications:
+    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_Name
+      value: TimedPlatformFirst (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles renderer TimedPlatformFirst (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: "When a collision with a bounding volume with tags [Player] starts:\n         
+        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n         
+        toggles trigger TimedPlatformFirst (6).On Collision\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
+        TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)\n          toggles renderer
+        TimedPlatformFirst (6)\n          toggles component TimedPlatformFirst (6)
+        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
+        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n         
+        toggles trigger TimedPlatformFirst (6).On Collision\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles trigger TimedPlatformFirst (6).On Collision
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
+        TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)\n          toggles renderer
+        TimedPlatformFirst (6)\n          toggles renderer TimedPlatformFirst2\n         
+        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1061
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 444
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: _explanation
+      value: Toggles component TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
 --- !u!1001 &1669223094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3513,11 +2726,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 251
+      value: 376
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 555
+      value: 496
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8192,11 +7405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1811147090 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 162730277}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1821417043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8272,11 +7480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 557
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8439,11 +7647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1009
+      value: 1075
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 261
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8666,7 +7874,7 @@ TilemapRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890770264}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9012,7 +8220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Toggles renderer CheshirePlatforms
+  _explanation: Enables renderer CheshirePlatforms
   description: 
   enableAction: 1
   hasTags: 0
@@ -9021,7 +8229,7 @@ MonoBehaviour:
   actionConditions: []
   renderer: {fileID: 1890770270}
   changeType: 0
-  visibility: 2
+  visibility: 0
 --- !u!114 &1890770273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9101,10 +8309,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When key F is pressed (this can only happen every 20 seconds):\n         
+  _explanation: "When key F is pressed (this can only happen every 15 seconds):\n         
     toggles component CheshirePlatforms (UnityEngine.Tilemap)\n          toggles
     component CheshirePlatforms (UnityEngine.TilemapCollider2D)\n          toggles
-    component CheshirePlatforms (UnityEngine.PlatformEffector2D)\n          toggles
+    component CheshirePlatforms (UnityEngine.PlatformEffector2D)\n          enables
     renderer CheshirePlatforms\n          enables component CheshirePlatforms (OkapiKit.TriggerOnTimer)\n"
   description: 
   enableTrigger: 1
@@ -9130,7 +8338,7 @@ MonoBehaviour:
   continuous: 0
   negate: 0
   useCooldown: 1
-  cooldown: 20
+  cooldown: 15
   elseActions: []
 --- !u!114 &1890770279
 MonoBehaviour:
@@ -9170,7 +8378,7 @@ MonoBehaviour:
   _explanation: "Every 10 seconds, trigger the actions::\n          toggles component
     CheshirePlatforms (UnityEngine.Tilemap)\n          toggles component CheshirePlatforms
     (UnityEngine.TilemapCollider2D)\n          toggles component CheshirePlatforms
-    (UnityEngine.PlatformEffector2D)\n          toggles renderer CheshirePlatforms\n"
+    (UnityEngine.PlatformEffector2D)\n          enables renderer CheshirePlatforms\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -10817,110 +10025,11 @@ MonoBehaviour:
   positionY: {x: 0, y: 0}
   deltaY: {x: 2, y: 2}
   scaleWithTime: 0
---- !u!4 &1928249885 stripped
+--- !u!4 &2005995150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1961118603}
+  m_PrefabInstance: {fileID: 483666807}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1961118603
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 384344962}
-    m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_Name
-      value: TimedPlatformFirst (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (7).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (7) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (7)\n          toggles component TimedPlatformFirst (7)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (7).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (7).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (7) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (7)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1520
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 265
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (7) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
 --- !u!1 &2018181849
 GameObject:
   m_ObjectHideFlags: 0
@@ -11610,84 +10719,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022107516}
   m_CullTransparentMesh: 1
---- !u!1 &2071939493
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2071939495}
-  - component: {fileID: 2071939494}
-  m_Layer: 0
-  m_Name: GroundCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &2071939494
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071939493}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 2, y: -2.5}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 10, y: 5}
-  m_EdgeRadius: 0
---- !u!4 &2071939495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071939493}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 743703788}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092555406
 GameObject:
   m_ObjectHideFlags: 0
@@ -11800,7 +10831,7 @@ PrefabInstance:
     - target: {fileID: -424128410016198452, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: movementComponent
       value: 
-      objectReference: {fileID: 743703790}
+      objectReference: {fileID: 0}
     - target: {fileID: 1627767728425370728, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: _explanation
       value: "When a collision with a bounding volume with tags [Player] starts:\n         
@@ -11814,7 +10845,7 @@ PrefabInstance:
     - target: {fileID: 3869040164265317789, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 743703788}
+      objectReference: {fileID: 0}
     - target: {fileID: 3869040164265317789, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: _explanation
       value: Changes the X scale of object Player, multiplying by 0,5, and changes
@@ -11826,7 +10857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 685
+      value: 785
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11892,11 +10923,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1758
+      value: 1808
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 383
+      value: 388
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11969,7 +11000,7 @@ PrefabInstance:
     - target: {fileID: -8977523678738606588, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: movementComponent
       value: 
-      objectReference: {fileID: 743703790}
+      objectReference: {fileID: 0}
     - target: {fileID: -4244886654216063911, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: _explanation
       value: Destroys this object
@@ -11981,7 +11012,7 @@ PrefabInstance:
     - target: {fileID: 5582056039749815650, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 743703788}
+      objectReference: {fileID: 0}
     - target: {fileID: 5582056039749815650, guid: 31fb2290682df6345915f5c5312b36dd, type: 3}
       propertyPath: _explanation
       value: Changes the X scale of object Player, multiplying by 2, and changes
@@ -12056,7 +11087,7 @@ SceneRoots:
   - {fileID: 1018926000}
   - {fileID: 384344962}
   - {fileID: 1430927488}
-  - {fileID: 743703788}
   - {fileID: 1832671717}
   - {fileID: 784092448}
   - {fileID: 1310153699}
+  - {fileID: 1281724185}

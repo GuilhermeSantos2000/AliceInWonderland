@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class camera : MonoBehaviour
@@ -6,6 +7,9 @@ public class camera : MonoBehaviour
     [SerializeField] private Vector3 offset; 
     [SerializeField] private float maxspeed;
     [SerializeField] private float pandown;
+
+    [SerializeField] private Vector2 minBounds; 
+    [SerializeField] private Vector2 maxBounds; 
 
    
     void Start()
@@ -29,14 +33,26 @@ public class camera : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards (transform.position, currentTarget, maxspeed * Time.fixedDeltaTime); // tis moves the camera towards the target defined
         }
-      
-        
+    }
+
+    void LateUpdate()
+    {
+        Vector3 clampedPosition = transform.position;
+
+        // Limitar a posição da câmera nos eixos X e Y
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, minBounds.x, maxBounds.x);
+        clampedPosition.y = Mathf.Clamp(clampedPosition.y, minBounds.y, maxBounds.y);
+
+        // Aplicar a posição limitada
+        transform.position = clampedPosition;
     }
 
     Vector3 GetTargetPosition()
     {
         return targetEntity.position; // this will get the target position
     }
+
+    
    
 }
 

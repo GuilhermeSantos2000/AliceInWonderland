@@ -1927,8 +1927,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetEntity: {fileID: 1408872764}
   offset: {x: 0, y: 30, z: 0}
-  maxspeed: 800
+  maxspeed: 1000
   pandown: 30
+  minBounds: {x: -127, y: -24}
+  maxBounds: {x: 2175, y: 535}
 --- !u!4 &1408872764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 196796789101100214, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
