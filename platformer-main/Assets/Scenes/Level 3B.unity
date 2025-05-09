@@ -7719,6 +7719,7 @@ GameObject:
   - component: {fileID: 1890770272}
   - component: {fileID: 1890770280}
   - component: {fileID: 1890770279}
+  - component: {fileID: 1890770281}
   m_Layer: 6
   m_Name: CheshirePlatforms
   m_TagString: Untagged
@@ -8137,7 +8138,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff4ebeb1f5b4ca24a998b898d5c1ad2d, type: 3}
   m_Name: 
@@ -8160,7 +8161,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
@@ -8182,7 +8183,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
@@ -8204,7 +8205,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
@@ -8226,7 +8227,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac24d8e98e97620458dc0c6fbe26a958, type: 3}
   m_Name: 
@@ -8270,7 +8271,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
   m_Name: 
@@ -8320,6 +8321,24 @@ MonoBehaviour:
   initialDelayEnable: 0
   initialDelay: {x: 5, y: 5}
   timeInterval: {x: 10, y: 10}
+--- !u!114 &1890770281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890770264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0386f658a653f3040a5924d1ff4f2c21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheshireRenderer: {fileID: 1890770270}
+  CheshireTilemap: {fileID: 1890770271}
+  CheshireCollider: {fileID: 1890770268}
+  CheshireEffector: {fileID: 1890770266}
+  duration: 5
+  cooldown: 5
 --- !u!1 &1898470257
 GameObject:
   m_ObjectHideFlags: 0

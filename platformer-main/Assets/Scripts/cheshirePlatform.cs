@@ -8,23 +8,14 @@ public class cheshirePlatform : MonoBehaviour
     [SerializeField] private TilemapRenderer CheshireRenderer;
     [SerializeField] private Tilemap CheshireTilemap;
     [SerializeField] private TilemapCollider2D CheshireCollider;
-
     [SerializeField] private PlatformEffector2D CheshireEffector;
-
     [SerializeField] private int duration;
+    [SerializeField] private float cooldown;
+    bool isOnCooldown = false;
 
-
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && isOnCooldown == false)
         {
             CheshireRenderer.enabled = true;
             CheshireTilemap.enabled = true;
@@ -32,6 +23,7 @@ public class cheshirePlatform : MonoBehaviour
             CheshireEffector.enabled = true;
 
             StartCoroutine(DisableChesire(duration));
+            isOnCooldown = true;
         }
     }
 
@@ -43,5 +35,12 @@ public class cheshirePlatform : MonoBehaviour
         CheshireTilemap.enabled = false;
         CheshireCollider.enabled = false;
         CheshireEffector.enabled = false;
+        StartCoroutine(Cooldown(cooldown));
+    }
+
+    private IEnumerator Cooldown(float cooldown)
+    {
+        yield return new WaitForSeconds(cooldown);
+        isOnCooldown = false;
     }
 }
