@@ -2109,11 +2109,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -603.2
+      value: -639.6
       objectReference: {fileID: 0}
     - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -128.2
+      value: -127.8
       objectReference: {fileID: 0}
     - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6134,13 +6134,7 @@ GameObject:
   - component: {fileID: 1890770268}
   - component: {fileID: 1890770267}
   - component: {fileID: 1890770266}
-  - component: {fileID: 1890770276}
-  - component: {fileID: 1890770275}
-  - component: {fileID: 1890770274}
-  - component: {fileID: 1890770273}
-  - component: {fileID: 1890770272}
-  - component: {fileID: 1890770280}
-  - component: {fileID: 1890770279}
+  - component: {fileID: 1890770281}
   m_Layer: 6
   m_Name: CheshirePlatforms
   m_TagString: Untagged
@@ -6522,7 +6516,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1890770272
+--- !u!114 &1890770281
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6531,187 +6525,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1890770264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4ebeb1f5b4ca24a998b898d5c1ad2d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0386f658a653f3040a5924d1ff4f2c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles renderer CheshirePlatforms
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  renderer: {fileID: 1890770270}
-  changeType: 0
-  visibility: 2
---- !u!114 &1890770273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component CheshirePlatforms (UnityEngine.PlatformEffector2D)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 1890770266}
-  state: 2
---- !u!114 &1890770274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component CheshirePlatforms (UnityEngine.TilemapCollider2D)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 1890770268}
-  state: 2
---- !u!114 &1890770275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component CheshirePlatforms (UnityEngine.Tilemap)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 1890770271}
-  state: 2
---- !u!114 &1890770276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac24d8e98e97620458dc0c6fbe26a958, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When key F is pressed (this can only happen every 20 seconds):\n         
-    toggles component CheshirePlatforms (UnityEngine.Tilemap)\n          toggles
-    component CheshirePlatforms (UnityEngine.TilemapCollider2D)\n          toggles
-    component CheshirePlatforms (UnityEngine.PlatformEffector2D)\n          toggles
-    renderer CheshirePlatforms\n          enables component CheshirePlatforms (OkapiKit.TriggerOnTimer)\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 1890770275}
-  - delay: 0
-    action: {fileID: 1890770274}
-  - delay: 0
-    action: {fileID: 1890770273}
-  - delay: 0
-    action: {fileID: 1890770272}
-  - delay: 0
-    action: {fileID: 1890770279}
-  inputType: 1
-  buttonName: 
-  key: 102
-  axis: 
-  deadArea: {x: -0.2, y: 0.2}
-  continuous: 0
-  negate: 0
-  useCooldown: 1
-  cooldown: 20
-  elseActions: []
---- !u!114 &1890770279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890770264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Enables component CheshirePlatforms (OkapiKit.TriggerOnTimer)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 1890770280}
-  state: 0
---- !u!114 &1890770280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890770264}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46216fa097ecb754babda0f26d640422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "Every 10 seconds, trigger the actions::\n          toggles component
-    CheshirePlatforms (UnityEngine.Tilemap)\n          toggles component CheshirePlatforms
-    (UnityEngine.TilemapCollider2D)\n          toggles component CheshirePlatforms
-    (UnityEngine.PlatformEffector2D)\n          toggles renderer CheshirePlatforms\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 1890770275}
-  - delay: 0
-    action: {fileID: 1890770274}
-  - delay: 0
-    action: {fileID: 1890770273}
-  - delay: 0
-    action: {fileID: 1890770272}
-  startTriggered: 0
-  initialDelayEnable: 0
-  initialDelay: {x: 5, y: 5}
-  timeInterval: {x: 10, y: 10}
+  CheshireRenderer: {fileID: 1890770270}
+  CheshireTilemap: {fileID: 1890770271}
+  CheshireCollider: {fileID: 1890770268}
+  CheshireEffector: {fileID: 1890770266}
+  duration: 5
+  cooldown: 5
 --- !u!1 &1898470257
 GameObject:
   m_ObjectHideFlags: 0
