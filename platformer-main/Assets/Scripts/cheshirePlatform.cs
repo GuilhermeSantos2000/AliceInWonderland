@@ -15,11 +15,16 @@ public class cheshirePlatform : MonoBehaviour
     bool isOnCooldown = false;
 
     [SerializeField] private GameObject durationUI;
+
+    [SerializeField] private GameObject cooldownUI;
     private Slider durationSlider;
+    private Slider cooldownSlider;
 
     void Start()
     {
         durationSlider = durationUI.GetComponentInChildren<Slider>();
+        cooldownSlider = cooldownUI.GetComponentInChildren<Slider>();
+
     }
     void Update()
     {
@@ -43,13 +48,17 @@ public class cheshirePlatform : MonoBehaviour
     {
         yield return new WaitForSeconds(cooldown);
         isOnCooldown = false;
+        cooldownUI.SetActive(false);
     }
 
     private IEnumerator UpdateSlider(float duration)
     {
         float timeLeft = duration;
+        float cooldownLeft = cooldown;
         durationSlider.maxValue = duration;
         durationSlider.value = duration;
+        cooldownSlider.maxValue = cooldown;
+        cooldownSlider.value = cooldown;
 
         while (timeLeft > 0)
         {
@@ -63,6 +72,17 @@ public class cheshirePlatform : MonoBehaviour
         CheshireCollider.enabled = false;
         CheshireEffector.enabled = false;
         durationUI.SetActive(false);
+    
         StartCoroutine(Cooldown(cooldown));
+        cooldownUI.SetActive(true);
+
+        while (cooldownLeft > 0)
+        {
+            cooldownLeft -= Time.deltaTime;
+            cooldownSlider.value = Mathf.Max(0, cooldownLeft);
+            yield return null;
+        }
+
+
     }
 }
