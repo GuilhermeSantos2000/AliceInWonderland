@@ -151,6 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggeringTag: Player
   destructionDelay: 2
+  respawnDelay: 5
   animator: {fileID: 6591237800212436345}
 --- !u!95 &6591237800212436345
 Animator:
