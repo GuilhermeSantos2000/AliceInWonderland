@@ -1,8 +1,11 @@
+using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
 public class player : MonoBehaviour
 {
+    [SerializeField] private Vector2 velocity;
+
     private Rigidbody2D body;
     private SpriteRenderer sprite;
 
@@ -22,6 +25,17 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float movedir = Input.GetAxis("Horizontal");
 
+        body.linearVelocity = new Vector2(movedir * velocity.x, body.linearVelocity.y);
+
+        if (movedir < 0)
+        {
+            transform.rotation = initialRotation * Quaternion.Euler(0, 180f, 0);
+        }
+        else if (movedir > 0)
+        {
+            transform.rotation = initialRotation;
+        }
     }
 }
