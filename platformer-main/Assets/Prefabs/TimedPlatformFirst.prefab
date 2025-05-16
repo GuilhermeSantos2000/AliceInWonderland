@@ -11,16 +11,8 @@ GameObject:
   - component: {fileID: 7984478150725173648}
   - component: {fileID: 8145123904525448652}
   - component: {fileID: 4584360007916364178}
-  - component: {fileID: 3921555878767532178}
-  - component: {fileID: 5629762502618162788}
-  - component: {fileID: -3439459200848859706}
-  - component: {fileID: 4770013476598081023}
-  - component: {fileID: 9088194182977894374}
-  - component: {fileID: 2290614618902911076}
-  - component: {fileID: 4324093058864702132}
-  - component: {fileID: 7130747515138734600}
-  - component: {fileID: 4881523407772894457}
-  - component: {fileID: -2555422748009645848}
+  - component: {fileID: -2462857251877236555}
+  - component: {fileID: 6591237800212436345}
   m_Layer: 6
   m_Name: TimedPlatformFirst
   m_TagString: Untagged
@@ -145,7 +137,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 128, y: 64}
   m_EdgeRadius: 0
---- !u!114 &3921555878767532178
+--- !u!114 &-2462857251877236555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,255 +146,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 804767963594483940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
+  m_Script: {fileID: 11500000, guid: 264283195fc197e49aa129887bc9cca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    toggles component TimedPlatformFirst (OkapiKit.TriggerOnTimer)\n          toggles
-    trigger TimedPlatformFirst.On Collision\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: -3439459200848859706}
-  - delay: 0
-    action: {fileID: 5629762502618162788}
-  isTrigger: 0
-  eventType: 0
-  tags:
-  - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
---- !u!114 &5629762502618162788
-MonoBehaviour:
+  triggeringTag: Player
+  destructionDelay: 2
+  animator: {fileID: 6591237800212436345}
+--- !u!95 &6591237800212436345
+Animator:
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804767963594483940}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92c8e5ca8f3d04141b3e3ca48a91ebb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles trigger TimedPlatformFirst.On Collision
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 3921555878767532178}
-  state: 2
---- !u!114 &-3439459200848859706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component TimedPlatformFirst (OkapiKit.TriggerOnTimer)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 4770013476598081023}
-  state: 2
---- !u!114 &4770013476598081023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46216fa097ecb754babda0f26d640422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "Every 1.5 seconds, trigger the actions::\n          toggles component
-    TimedPlatformFirst (UnityEngine.BoxCollider2D)\n          toggles renderer TimedPlatformFirst\n         
-    toggles component TimedPlatformFirst (OkapiKit.TriggerOnTimer)\n          toggles
-    renderer TimedPlatformFirst2\n          toggles component TimedPlatformFirst
-    (OkapiKit.TriggerOnTimer)\n          toggles trigger TimedPlatformFirst.On Collision\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 9088194182977894374}
-  - delay: 0
-    action: {fileID: 2290614618902911076}
-  - delay: 0
-    action: {fileID: -3439459200848859706}
-  - delay: 0
-    action: {fileID: 4324093058864702132}
-  - delay: 0
-    action: {fileID: 4881523407772894457}
-  - delay: 0
-    action: {fileID: 5629762502618162788}
-  startTriggered: 0
-  initialDelayEnable: 0
-  initialDelay: {x: 5, y: 5}
-  timeInterval: {x: 1.5, y: 1.5}
---- !u!114 &9088194182977894374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component TimedPlatformFirst (UnityEngine.BoxCollider2D)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 4584360007916364178}
-  state: 2
---- !u!114 &2290614618902911076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4ebeb1f5b4ca24a998b898d5c1ad2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles renderer TimedPlatformFirst
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  renderer: {fileID: 8145123904525448652}
-  changeType: 0
-  visibility: 2
---- !u!114 &4324093058864702132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4ebeb1f5b4ca24a998b898d5c1ad2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles renderer TimedPlatformFirst2
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  renderer: {fileID: 3052205747539498277}
-  changeType: 0
-  visibility: 2
---- !u!114 &7130747515138734600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46216fa097ecb754babda0f26d640422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "Every 1.5 seconds, trigger the actions::\n          toggles component
-    TimedPlatformFirst (UnityEngine.BoxCollider2D)\n          toggles renderer TimedPlatformFirst\n         
-    toggles renderer TimedPlatformFirst2\n          toggles component TimedPlatformFirst
-    (OkapiKit.TriggerOnTimer)\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 9088194182977894374}
-  - delay: 0
-    action: {fileID: 2290614618902911076}
-  - delay: 0
-    action: {fileID: 4324093058864702132}
-  - delay: 0
-    action: {fileID: 4881523407772894457}
-  startTriggered: 0
-  initialDelayEnable: 0
-  initialDelay: {x: 5, y: 5}
-  timeInterval: {x: 1.5, y: 1.5}
---- !u!114 &4881523407772894457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Toggles component TimedPlatformFirst (OkapiKit.TriggerOnTimer)
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 7130747515138734600}
-  state: 2
---- !u!251 &-2555422748009645848
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804767963594483940}
-  m_Enabled: 0
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4946aea2213748f4891de40e3f9d0f36, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6143925231783627019
 GameObject:
   m_ObjectHideFlags: 0
