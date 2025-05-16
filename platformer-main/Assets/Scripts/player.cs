@@ -27,7 +27,15 @@ public class player : MonoBehaviour
     {
         float movedir = Input.GetAxis("Horizontal");
 
-        body.linearVelocity = new Vector2(movedir * velocity.x, body.linearVelocity.y);
+        Vector2 currentVelocity = body.linearVelocity;
+
+        currentVelocity.x = movedir * velocity.x;
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            Debug.Log("Jumping!");
+            currentVelocity.y = velocity.y;
+        }
 
         if (movedir < 0)
         {
@@ -37,5 +45,7 @@ public class player : MonoBehaviour
         {
             transform.rotation = initialRotation;
         }
+
+        body.linearVelocity = currentVelocity;
     }
 }
