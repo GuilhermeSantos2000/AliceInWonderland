@@ -220,47 +220,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (4).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (4) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (4)\n          toggles component TimedPlatformFirst (4)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (4).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (4).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (4) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (4)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (4) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -302,10 +264,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (4) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -315,6 +273,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 135104881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &194983472 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+  m_PrefabInstance: {fileID: 1774813186}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &260543903
 PrefabInstance:
@@ -417,47 +380,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (3) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (3) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (3).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (3) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (3)\n          toggles component TimedPlatformFirst (3)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (3) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (3).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (3) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (3).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (3) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (3)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (3) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -498,10 +423,6 @@ PrefabInstance:
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (3) (UnityEngine.BoxCollider2D)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -939,23 +860,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (14) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (14) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (14).On Collision\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4584360007916364178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Size.x
@@ -972,30 +879,6 @@ PrefabInstance:
     - target: {fileID: 4584360007916364178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Offset.y
       value: 0.086135864
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1.5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (14) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (14)\n          toggles component TimedPlatformFirst (14)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (14) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (14).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (14) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (14).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1.5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (14) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (14)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (14) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1037,10 +920,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (14) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1059,47 +938,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (11) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (11) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (11).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (11) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (11)\n          toggles component TimedPlatformFirst (11)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (11) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (11).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (11) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (11).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (11) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (11)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (11) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1140,10 +981,6 @@ PrefabInstance:
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (11) (UnityEngine.BoxCollider2D)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1220,10 +1057,10 @@ Transform:
   - {fileID: 557825089}
   - {fileID: 703169136}
   - {fileID: 296277940}
-  - {fileID: 581997848}
   - {fileID: 1026291880}
   - {fileID: 1909422244}
   - {fileID: 1682675272}
+  - {fileID: 194983472}
   - {fileID: 1634548851}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1775,110 +1612,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 1867745513}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &581997847
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 384344962}
-    m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (15) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_Name
-      value: TimedPlatformFirst (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (15) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (15).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (15) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (15)\n          toggles component TimedPlatformFirst (15)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (15) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (15).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (15) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (15).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (15) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (15)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (15) (OkapiKit.TriggerOnTimer)\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1116.5435
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 408.33173
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (15) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
---- !u!4 &581997848 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 581997847}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &703169135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1887,47 +1620,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (13) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (13) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (13).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (13) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (13)\n          toggles component TimedPlatformFirst (13)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (13) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (13).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (13) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (13).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (13) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (13)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (13) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1968,10 +1663,6 @@ PrefabInstance:
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (13) (UnityEngine.BoxCollider2D)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2595,47 +2286,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (5) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (5) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (5).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (5) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (5)\n          toggles component TimedPlatformFirst (5)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (5) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (5).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (5) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (5).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (5) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (5)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (5) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2677,10 +2330,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (5) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2699,47 +2348,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (7).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (7) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (7)\n          toggles component TimedPlatformFirst (7)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (7).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (7).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (7) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (7)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (7) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2781,10 +2392,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (7) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2803,47 +2410,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (16).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (16) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (16)\n          toggles component TimedPlatformFirst (16)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (16).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (16).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (16) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (16)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2884,10 +2453,6 @@ PrefabInstance:
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (16) (UnityEngine.BoxCollider2D)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3361,47 +2926,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (10) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (10) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (10).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (10) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (10)\n          toggles component TimedPlatformFirst (10)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (10) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (10).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (10) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (10).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (10) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (10)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (10) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3443,10 +2970,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (10) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3465,47 +2988,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (9) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (9) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (9).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (9) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (9)\n          toggles component TimedPlatformFirst (9)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (9) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (9).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (9) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (9).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (9) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (9)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (9) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3546,10 +3031,6 @@ PrefabInstance:
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (9) (UnityEngine.BoxCollider2D)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7017,47 +6498,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (6).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (6)\n          toggles component TimedPlatformFirst (6)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (6).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (6).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (6)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (6) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7099,10 +6542,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (6) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7126,47 +6565,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (17) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (17) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (17).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (17) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (17)\n          toggles component TimedPlatformFirst (17)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (17) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (17).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (17) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (17).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (17) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (17)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (17) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7207,10 +6608,6 @@ PrefabInstance:
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (17) (UnityEngine.BoxCollider2D)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7650,6 +7047,63 @@ MonoBehaviour:
   eventType: 0
   tags:
   - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
+--- !u!1001 &1774813186
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 384344962}
+    m_Modifications:
+    - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_Name
+      value: TimedPlatformFirst (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1122
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 415
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
 --- !u!1 &1832671714
 GameObject:
   m_ObjectHideFlags: 0
@@ -7726,47 +7180,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (8) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (8) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (8).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (8) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (8)\n          toggles component TimedPlatformFirst (8)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (8) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (8).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (8) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (8).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (8) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (8)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (8) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7808,10 +7224,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (8) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7830,52 +7242,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (1) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (1) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (1).On Collision\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4584360007916364178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: d7a12a7c307c58e43abc2d6ee1d101e7, type: 2}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (1) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (1)\n          toggles component TimedPlatformFirst (1)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (1) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (1).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (1) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (1).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (1) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (1)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (1) (OkapiKit.TriggerOnTimer)\n"
-      objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
       value: 556
@@ -7916,10 +7290,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (1) (UnityEngine.BoxCollider2D)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7940,8 +7310,6 @@ GameObject:
   - component: {fileID: 1898470263}
   - component: {fileID: 1898470262}
   - component: {fileID: 1898470261}
-  - component: {fileID: 1898470260}
-  - component: {fileID: 1898470259}
   - component: {fileID: 1898470267}
   m_Layer: 9
   m_Name: Spikes
@@ -7965,54 +7333,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 384344962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1898470259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898470257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b12253cfd341aa46a3a6fcba7709af0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Switches to scene Level 2
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  sceneName: Level 2
---- !u!114 &1898470260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898470257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    switches to scene Level 2\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 0
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 1898470259}
-  isTrigger: 0
-  eventType: 0
-  tags:
-  - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
 --- !u!251 &1898470261
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -8752,27 +8072,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1898470257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ef5f9e0d47611f4da64c31fc24a95e2, type: 3}
+  m_Script: {fileID: 11500000, guid: e86cba07869db624aab704ecaf56e599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Changes the X scale of this, multiplying by 2, and changes the Y
-    scale of this, multiplying by 2.
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 0}
-  changeType: 2
-  xAxis: 3
-  positionX: {x: 0, y: 0}
-  deltaX: {x: 2, y: 2}
-  yAxis: 3
-  positionY: {x: 0, y: 0}
-  deltaY: {x: 2, y: 2}
-  scaleWithTime: 0
+  triggeringTag: Player
 --- !u!4 &1909422244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
@@ -8873,47 +8176,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
-    - target: {fileID: -3439459200848859706, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
     - target: {fileID: 804767963594483940, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_Name
       value: TimedPlatformFirst (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2290614618902911076, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles renderer TimedPlatformFirst (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3921555878767532178, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "When a collision with a bounding volume with tags [Player] starts:\n         
-        toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (16).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (16) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (16)\n          toggles component TimedPlatformFirst (16)
-        (OkapiKit.TriggerOnTimer)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)\n         
-        toggles trigger TimedPlatformFirst (16).On Collision\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles trigger TimedPlatformFirst (16).On Collision
-      objectReference: {fileID: 0}
-    - target: {fileID: 7130747515138734600, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: "Every 1,5 seconds, trigger the actions::\n          toggles component
-        TimedPlatformFirst (16) (UnityEngine.BoxCollider2D)\n          toggles renderer
-        TimedPlatformFirst (16)\n          toggles renderer TimedPlatformFirst2\n         
-        toggles component TimedPlatformFirst (16) (OkapiKit.TriggerOnTimer)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8954,10 +8219,6 @@ PrefabInstance:
     - target: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9088194182977894374, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-      propertyPath: _explanation
-      value: Toggles component TimedPlatformFirst (16) (UnityEngine.BoxCollider2D)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

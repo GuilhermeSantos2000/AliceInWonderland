@@ -601,17 +601,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 698188990}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &224845590 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 698188990}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &288152769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 196796789101100214, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
@@ -1000,11 +989,11 @@ PrefabInstance:
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[4].action
       value: 
-      objectReference: {fileID: 224845590}
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[5].action
       value: 
-      objectReference: {fileID: 224845590}
+      objectReference: {fileID: 0}
     - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: Toggles component TimedPlatformFirst (1) (OkapiKit.TriggerOnTimer)
@@ -1122,11 +1111,11 @@ PrefabInstance:
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[4].action
       value: 
-      objectReference: {fileID: 1797024671}
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[5].action
       value: 
-      objectReference: {fileID: 1797024671}
+      objectReference: {fileID: 0}
     - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: Toggles component TimedPlatformFirst (8) (OkapiKit.TriggerOnTimer)
@@ -1322,17 +1311,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 1145559438}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &792919458 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1145559438}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &808925022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,17 +1351,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 1669223094}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &922702736 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1669223094}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &924030408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,17 +1801,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 1328393023}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1072781605 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1328393023}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1145559438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1894,11 +1850,11 @@ PrefabInstance:
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[4].action
       value: 
-      objectReference: {fileID: 792919458}
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[5].action
       value: 
-      objectReference: {fileID: 792919458}
+      objectReference: {fileID: 0}
     - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: Toggles component TimedPlatformFirst (11) (OkapiKit.TriggerOnTimer)
@@ -2202,11 +2158,11 @@ PrefabInstance:
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[4].action
       value: 
-      objectReference: {fileID: 1072781605}
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[5].action
       value: 
-      objectReference: {fileID: 1072781605}
+      objectReference: {fileID: 0}
     - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: Toggles component TimedPlatformFirst (10) (OkapiKit.TriggerOnTimer)
@@ -3134,11 +3090,11 @@ PrefabInstance:
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[4].action
       value: 
-      objectReference: {fileID: 1708896116}
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[5].action
       value: 
-      objectReference: {fileID: 1708896116}
+      objectReference: {fileID: 0}
     - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: Toggles component TimedPlatformFirst (9) (OkapiKit.TriggerOnTimer)
@@ -3287,17 +3243,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 1821417043}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1660458033 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1821417043}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1662816171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3442,11 +3387,11 @@ PrefabInstance:
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[4].action
       value: 
-      objectReference: {fileID: 922702736}
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[5].action
       value: 
-      objectReference: {fileID: 922702736}
+      objectReference: {fileID: 0}
     - target: {fileID: 5629762502618162788, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: 
@@ -3916,17 +3861,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 1570386757}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1708896116 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 1570386757}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1738328225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8212,17 +8146,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
   m_PrefabInstance: {fileID: 741205686}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1797024671 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
-  m_PrefabInstance: {fileID: 741205686}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e9241509df85c44871f6a996f27c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1821417043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8272,11 +8195,11 @@ PrefabInstance:
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[4].action
       value: 
-      objectReference: {fileID: 1660458033}
+      objectReference: {fileID: 0}
     - target: {fileID: 4770013476598081023, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: actions.Array.data[5].action
       value: 
-      objectReference: {fileID: 1660458033}
+      objectReference: {fileID: 0}
     - target: {fileID: 4881523407772894457, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
       propertyPath: _explanation
       value: Toggles component TimedPlatformFirst (3) (OkapiKit.TriggerOnTimer)
@@ -8974,8 +8897,6 @@ GameObject:
   - component: {fileID: 1898470263}
   - component: {fileID: 1898470262}
   - component: {fileID: 1898470261}
-  - component: {fileID: 1898470260}
-  - component: {fileID: 1898470259}
   - component: {fileID: 1898470267}
   m_Layer: 9
   m_Name: Spikes
@@ -8999,54 +8920,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 384344962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1898470259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898470257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b12253cfd341aa46a3a6fcba7709af0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Switches to scene Level 3B
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  sceneName: Level 3B
---- !u!114 &1898470260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898470257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    switches to scene Level 3B\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 0
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 1898470259}
-  isTrigger: 0
-  eventType: 0
-  tags:
-  - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
 --- !u!251 &1898470261
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -10566,27 +10439,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1898470257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ef5f9e0d47611f4da64c31fc24a95e2, type: 3}
+  m_Script: {fileID: 11500000, guid: e86cba07869db624aab704ecaf56e599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Changes the X scale of this, multiplying by 2, and changes the Y
-    scale of this, multiplying by 2.
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 0}
-  changeType: 2
-  xAxis: 3
-  positionX: {x: 0, y: 0}
-  deltaX: {x: 2, y: 2}
-  yAxis: 3
-  positionY: {x: 0, y: 0}
-  deltaY: {x: 2, y: 2}
-  scaleWithTime: 0
+  triggeringTag: Player
 --- !u!1 &1979089246
 GameObject:
   m_ObjectHideFlags: 0
