@@ -11,11 +11,6 @@ GameObject:
   - component: {fileID: 4991384803085866607}
   - component: {fileID: 8872029443565855098}
   - component: {fileID: -6696751589758703999}
-  - component: {fileID: 1627767728425370728}
-  - component: {fileID: 3869040164265317789}
-  - component: {fileID: 1322712481741439820}
-  - component: {fileID: -424128410016198452}
-  - component: {fileID: 6963494676225384698}
   - component: {fileID: 1199502656918056347}
   m_Layer: 9
   m_Name: DownscaleCandy
@@ -34,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2304, y: 2.2304, z: 2.2304}
+  m_LocalScale: {x: 0.747987, y: 0.747987, z: 0.747987}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7484273516691755593}
@@ -84,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5358cbdb18b540648b4c87515f2fbca7, type: 3}
+  m_Sprite: {fileID: 5443631517740529566, guid: a34fd07ffada1514c8bd172e5e335b7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,158 +126,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 12
---- !u!114 &1627767728425370728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291060696459172393}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    changes the X scale of this, multiplying by 0.5, and changes the Y scale of this,
-    multiplying by 0.5.\n          changes the current velocity of [UNKNOWN] by a
-    value between -275 and -125 along the global Y axis.\n          Note that this
-    changes the velocity parameters of the movement, not the current velocity.\n         
-    For that, use the 'Change Rigid Body' action.\n          destroys this object\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 0
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 3869040164265317789}
-  - delay: 0
-    action: {fileID: -424128410016198452}
-  - delay: 0
-    action: {fileID: 6963494676225384698}
-  isTrigger: 0
-  eventType: 0
-  tags:
-  - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
---- !u!114 &3869040164265317789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291060696459172393}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ef5f9e0d47611f4da64c31fc24a95e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Changes the X scale of this, multiplying by 0.5, and changes the
-    Y scale of this, multiplying by 0.5.
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: {fileID: 0}
-  changeType: 2
-  xAxis: 3
-  positionX: {x: 0, y: 0}
-  deltaX: {x: 0.5, y: 0.5}
-  yAxis: 3
-  positionY: {x: 0, y: 0}
-  deltaY: {x: 0.5, y: 0.5}
-  scaleWithTime: 0
---- !u!114 &1322712481741439820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291060696459172393}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6fc8a1e9dd21634a9cb00402422ec6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 
-  description: 
-  hypertags:
-  - {fileID: 11400000, guid: 9053f0c8cecf8594e911bd4ee15cf1c6, type: 2}
-  - {fileID: 11400000, guid: 69fb30cb9fa8bd84286d274e8ac741c9, type: 2}
---- !u!114 &-424128410016198452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291060696459172393}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 498532aa2f19d4942a1eb319f65735d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 'Changes the current velocity of [UNKNOWN] by a value between -275
-    and -125 along the global Y axis.
-
-    Note that this changes the velocity parameters
-    of the movement, not the current velocity.
-
-    For that, use the ''Change Rigid
-    Body'' action.'
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  movementComponent: {fileID: 0}
-  rigidBodyComponent: {fileID: 0}
-  changeType: 0
-  operation: 2
-  floatPlatformerOperation: 0
-  percentageValue: {x: 1, y: 0.5}
-  value: {x: -275, y: -125}
-  axis: 2
-  useRotation: 0
-  useRandom: 0
-  startAngle: 0
-  endAngle: 360
-  speedRange: {x: 100, y: 100}
-  minVelocity: {x: 100, y: 100}
-  maxVelocity: {x: 100, y: 100}
-  clampSpeed: 0
-  clampTo: {x: 0, y: 0}
-  fValue: 0
-  iValue: 0
---- !u!114 &6963494676225384698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291060696459172393}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e75877c0562c0e49a1475541c319262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Destroys this object
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  target: 0
-  targetObject: {fileID: 0}
-  tags: []
 --- !u!114 &1199502656918056347
 MonoBehaviour:
   m_ObjectHideFlags: 0
