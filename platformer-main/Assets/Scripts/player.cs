@@ -11,6 +11,8 @@ public class player : MonoBehaviour
 
     private Quaternion initialRotation;
 
+    private bool isGrounded = true;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,7 +33,7 @@ public class player : MonoBehaviour
 
         currentVelocity.x = movedir * velocity.x;
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             Debug.Log("Jumping!");
             currentVelocity.y = velocity.y;
@@ -47,5 +49,17 @@ public class player : MonoBehaviour
         }
 
         body.linearVelocity = currentVelocity;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collider)
+    {
+        Debug.Log("Grounded!");
+        isGrounded = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D collider)
+    {
+        Debug.Log("Not Grounded!");
+        isGrounded = false;
     }
 }
