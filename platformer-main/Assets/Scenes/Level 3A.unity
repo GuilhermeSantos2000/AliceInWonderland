@@ -2352,6 +2352,18 @@ PrefabInstance:
       propertyPath: points.Array.data[2].y
       value: 542.4941
       objectReference: {fileID: 0}
+    - target: {fileID: 2390610696458094945, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
+      propertyPath: moveSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390610696458094945, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
+      propertyPath: pathPoints.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390610696458094945, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
+      propertyPath: 'pathPoints.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1870449353}
     - target: {fileID: 6793875251026504360, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -6929,6 +6941,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
+--- !u!4 &1870449353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3119468555784631124, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
+  m_PrefabInstance: {fileID: 1310153699}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1890770264
 GameObject:
   m_ObjectHideFlags: 0
