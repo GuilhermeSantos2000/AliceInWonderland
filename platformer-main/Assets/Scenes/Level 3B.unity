@@ -1229,8 +1229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 784092448}
-  - component: {fileID: 784092447}
-  - component: {fileID: 784092446}
+  - component: {fileID: 784092449}
   m_Layer: 0
   m_Name: ResetLevel
   m_TagString: Untagged
@@ -1238,59 +1237,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &784092446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784092445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b12253cfd341aa46a3a6fcba7709af0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Switches to scene Level 3B
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  sceneName: Level 3B
---- !u!114 &784092447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784092445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac24d8e98e97620458dc0c6fbe26a958, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When key Escape is pressed:\n          switches to scene Level 3B\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 784092446}
-  inputType: 1
-  buttonName: 
-  key: 27
-  axis: 
-  deadArea: {x: -0.2, y: 0.2}
-  continuous: 0
-  negate: 0
-  useCooldown: 0
-  cooldown: 1
-  elseActions: []
 --- !u!4 &784092448
 Transform:
   m_ObjectHideFlags: 0
@@ -1306,6 +1252,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &784092449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784092445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96c23d2ab70c28419c985bee5abf484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetKey: 27
 --- !u!4 &792919457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
@@ -2099,6 +2058,10 @@ PrefabInstance:
     - target: {fileID: 2127840733075973383, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
       propertyPath: points.Array.data[2].y
       value: -267.30533
+      objectReference: {fileID: 0}
+    - target: {fileID: 3119468555784631124, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.81
       objectReference: {fileID: 0}
     - target: {fileID: 6793875251026504360, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
       propertyPath: m_Name

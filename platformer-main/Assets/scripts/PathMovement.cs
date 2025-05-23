@@ -7,21 +7,33 @@ public class LoopingPathFollower : MonoBehaviour
     public float reachThreshold = 0.1f; // How close before it "reaches" the point
 
     private int currentPointIndex = 0;
+    private Vector3[] staticPositions; // Store initial positions
+
+    void Start()
+    {
+        // Store the initial positions of the path points
+        staticPositions = new Vector3[pathPoints.Length];
+        for (int i = 0; i < pathPoints.Length; i++)
+        {
+            staticPositions[i] = pathPoints[i].position;
+        }
+    }
 
     void Update()
     {
-        if (pathPoints.Length == 0)
+        if (staticPositions == null || staticPositions.Length == 0)
             return;
 
-        Transform targetPoint = pathPoints[currentPointIndex];
-        Vector3 direction = (targetPoint.position - transform.position).normalized;
+        Vector3 targetPoint = staticPositions[currentPointIndex];
+        Vector3 direction = (targetPoint - transform.position).normalized;
 
         transform.position += direction * moveSpeed * Time.deltaTime;
 
         // Check if close enough to the target point
-        if (Vector3.Distance(transform.position, targetPoint.position) < reachThreshold)
+        if (Vector3.Distance(transform.position, targetPoint) < reachThreshold)
         {
-            currentPointIndex = (currentPointIndex + 1) % pathPoints.Length;
+            transform.position = targetPoint; // Snap to the point
+            currentPointIndex = (currentPointIndex + 1) % staticPositions.Length;
         }
     }
 }

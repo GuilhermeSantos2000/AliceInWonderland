@@ -197,7 +197,8 @@ MonoBehaviour:
   pathPoints:
   - {fileID: 145841335384363596}
   - {fileID: 3119468555784631124}
-  speed: 200
+  moveSpeed: 200
+  reachThreshold: 0.1
 --- !u!1 &8906447285341904338
 GameObject:
   m_ObjectHideFlags: 0
