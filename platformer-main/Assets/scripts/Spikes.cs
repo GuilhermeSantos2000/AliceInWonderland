@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Required for scene management
+using UnityEngine.SceneManagement;
 
 public class Spikes : MonoBehaviour
 {
