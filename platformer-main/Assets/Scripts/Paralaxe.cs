@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class Paralaxe : MonoBehaviour
 {
-    [SerializeField] private Transform _backgroundGround;
-    [SerializeField] private Transform _middleGround;
     [SerializeField] private Transform _playerCamera;
     
     [SerializeField] private ParalaxeSprite[] _paralaxeSprites;
 
 
-    void Update()
+    void LateUpdate()
     {
-        for (int i = 0; 1 < _paralaxeSprites.Length; i++)
+        for (int i = 0; i < _paralaxeSprites.Length; i++)
         {
-            _paralaxeSprites[i].TargetSprite.transform.position =
-                _playerCamera.transform.position / _paralaxeSprites[i].SpeedDiv;
-                _paralaxeSprites[i].TargetSprite.sortingOrder = i;
+            Vector2 newPos = _playerCamera.transform.position;
+            newPos = _playerCamera.transform.position / _paralaxeSprites[i].SpeedDiv;
+
+            newPos.y = _paralaxeSprites[i].TargetTransform.transform.position.y;
+            _paralaxeSprites[i].TargetTransform.transform.position = newPos;
         }
     }
 
@@ -24,9 +24,9 @@ public class Paralaxe : MonoBehaviour
     public class ParalaxeSprite
     {
         [SerializeField] private float _speedDiv = 2f;
-        [SerializeField] private SpriteRenderer _targetsprite;
+        [SerializeField] private Transform _targetTransform;
 
         public float SpeedDiv => _speedDiv;
-        public SpriteRenderer TargetSprite => _targetsprite;
+        public Transform TargetTransform => _targetTransform;
     }
 }
