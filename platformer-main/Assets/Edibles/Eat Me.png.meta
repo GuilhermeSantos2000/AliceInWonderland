@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a34fd07ffada1514c8bd172e5e335b7f
+guid: 014841e4b966d004d90e0a666b94aca2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5443631517740529566
-    second: Drink Me_0
+      213: 409634322956477174
+    second: Eat Me_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Drink Me_0
+      name: Eat Me_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 42
-        height: 61
+        x: 2
+        y: 3
+        width: 60
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e977b07160aab8b40800000000000000
-      internalID: 5443631517740529566
+      spriteID: 6f2e0a31f305fa500800000000000000
+      internalID: 409634322956477174
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Drink Me_0: 5443631517740529566
+      Eat Me_0: 409634322956477174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
