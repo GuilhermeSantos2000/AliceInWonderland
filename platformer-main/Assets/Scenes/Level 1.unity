@@ -407,19 +407,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5177742486434129318, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
   m_PrefabInstance: {fileID: 1264726664}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &794119407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794119389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9450c756be7f0614583f71aa51324e73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocity: {x: 250, y: 800}
 --- !u!1 &826332586
 GameObject:
   m_ObjectHideFlags: 0
@@ -6183,9 +6170,39 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4480020188348438661, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: _explanation
+      value: 'Select a random velocity between (250.00, 500.00) and (250.00, 500.00)
+        and set it to Player ''s rigid body.
+
+        Note that this changes the
+        velocity parameters of the movement, not the current velocity.
+
+        For
+        that, use the ''Change Rigid Body'' action.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480020188348438661, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: movementComponent
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4916942909886406605, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916942909886406605, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: _explanation
+      value: 'Select a random velocity between (400.00, 500.00) and (400.00, 500.00)
+        and set it to Player ''s rigid body, and clamps the speed to be between [400,650].
+
+        Note
+        that this changes the velocity parameters of the movement, not the current
+        velocity.
+
+        For that, use the ''Change Rigid Body'' action.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916942909886406605, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: movementComponent
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5177742486434129318, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_Name
@@ -6199,6 +6216,71 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5663625800153592710, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: _explanation
+      value: 'Platformer controller
+
+        ----------------
+
+        Platformer
+        movement; horizontal speed is 250 units per second.
+
+        Horizontal movement
+        will be controlled by the [Horizontal] axis.
+
+        Ground check is going
+        to use collider GroundCheck, the ground layer mask defines what is considered
+        solid ground.
+
+        When there''s no solid ground below character, the
+        character will start falling after 0.15s, with a gravity scale of 2.
+
+        The
+        character''s trajectory can be modified mid-air.
+
+        When in the air,
+        the character''s collider will be Player (Player  (UnityEngine.BoxCollider2D)),
+        and on the ground will be Player (Player  (UnityEngine.CapsuleCollider2D)).
+
+        The
+        character will jump by holding the [Space] button.
+
+        The vertical
+        velocity will be 680 units/second while jump is pressed, during a maximum
+        of 0.2 seconds.
+
+        Jump height will be between 163 to 299 units (from
+        0.48 to 0.68 seconds to top of trajectory).
+
+        If the character presses
+        the jump button up to 0.1s before hitting the ground, it will jump automatically
+        again.
+
+        This controller also controls some visuals:
+
+        When
+        the player intent is to go left, the horizontal scale of this object will
+        be inverted.
+
+        Some values will be set on animator Player :
+
+        Horizontal
+        velocity will be set to parameter VelocityX.
+
+        Absolute horizontal
+        velocity will be set to parameter AbsVelocityX.
+
+        Vertical velocity
+        will be set to parameter VelocityY.
+
+        Absolute vertical velocity will
+        be set to parameter AbsVelocityY.
+
+        Grounded state will be set to
+        parameter IsGrounded.
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5957679017296671968, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6206,6 +6288,21 @@ PrefabInstance:
     - target: {fileID: 8358741186411544380, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358741186411544380, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: _explanation
+      value: "When (IsGrounded([UNDEFINED]) and (IsGrounded([UNDEFINED]):\n         
+        sets Player 's sprite color to RGBA(1.000, 1.000, 1.000, 1.000)\nelse\n         
+        sets Player 's sprite color to RGBA(0.718, 0.294, 0.335, 1.000)\n\nThis trigger
+        will execute only when the conditions change and they are all true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358741186411544380, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: conditions.Array.data[0].movementPlatformer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358741186411544380, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: conditions.Array.data[1].movementPlatformer
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8882509518942335713, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_Material
@@ -6222,10 +6319,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5177742486434129318, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 794119407}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
 --- !u!1 &1378518351
 GameObject:

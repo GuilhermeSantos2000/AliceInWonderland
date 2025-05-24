@@ -222,7 +222,7 @@ MonoBehaviour:
   platformCooldown: 2
   platformTimer: 5
   activateSFX: {fileID: 8300000, guid: 98f6708143966d04fa3f8cdd7e995a11, type: 3}
-  sfxVolume: 1
+  sfxVolume: 0.5
 --- !u!4 &224845589 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
@@ -1335,9 +1335,106 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1625699161949248978, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918560288895424893, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480020188348438661, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916942909886406605, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5177742486434129318, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_Name
       value: 'Player '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663625800153592710, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663625800153592710, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: _explanation
+      value: 'Platformer controller
+
+        ----------------
+
+        Platformer
+        movement; horizontal speed is 250 units per second.
+
+        Horizontal movement
+        will be controlled by the [Horizontal] axis.
+
+        Ground check is going
+        to use collider GroundCheck, the ground layer mask defines what is considered
+        solid ground.
+
+        When there''s no solid ground below character, the
+        character will start falling after 0.15s, with a gravity scale of 2.
+
+        The
+        character''s trajectory can be modified mid-air.
+
+        When in the air,
+        the character''s collider will be Player (Player  (UnityEngine.BoxCollider2D)),
+        and on the ground will be Player (Player  (UnityEngine.CapsuleCollider2D)).
+
+        The
+        character will jump by holding the [Space] button.
+
+        The vertical
+        velocity will be 680 units/second while jump is pressed, during a maximum
+        of 0.2 seconds.
+
+        Jump height will be between 163 to 299 units (from
+        0.48 to 0.68 seconds to top of trajectory).
+
+        If the character presses
+        the jump button up to 0.1s before hitting the ground, it will jump automatically
+        again.
+
+        This controller also controls some visuals:
+
+        When
+        the player intent is to go left, the horizontal scale of this object will
+        be inverted.
+
+        Some values will be set on animator Player :
+
+        Horizontal
+        velocity will be set to parameter VelocityX.
+
+        Absolute horizontal
+        velocity will be set to parameter AbsVelocityX.
+
+        Vertical velocity
+        will be set to parameter VelocityY.
+
+        Absolute vertical velocity will
+        be set to parameter AbsVelocityY.
+
+        Grounded state will be set to
+        parameter IsGrounded.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358741186411544380, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882509518942335713, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137668565894864496, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9430,6 +9527,10 @@ PrefabInstance:
     - target: {fileID: -424128410016198452, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: movementComponent
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199502656918056347, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
+      propertyPath: volume
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1627767728425370728, guid: 609ad374fb2dd804ea7fb4d741774b75, type: 3}
       propertyPath: _explanation
