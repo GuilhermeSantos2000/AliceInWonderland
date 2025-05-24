@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement; // Required for scene management
 
-public class NextLevel : MonoBehaviour
+public class nextLevel : MonoBehaviour
 {
     [SerializeField] private string triggeringTag = "Player"; // Tag of the object that triggers the scene change
     [SerializeField] private string nextSceneName; // Name of the scene to load

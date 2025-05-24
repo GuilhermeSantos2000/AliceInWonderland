@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &59586877 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
+  m_PrefabInstance: {fileID: 1281724185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &88076903
 GameObject:
   m_ObjectHideFlags: 0
@@ -8469,11 +8474,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0386f658a653f3040a5924d1ff4f2c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 59586877}
   CheshireRenderer: {fileID: 1890770270}
   CheshireTilemap: {fileID: 1890770271}
   CheshireCollider: {fileID: 1890770268}
   CheshireEffector: {fileID: 1890770266}
-  duration: 5
+  duration: 20
   cooldown: 5
   durationUI: {fileID: 1751551360}
   cooldownUI: {fileID: 1514089153}
