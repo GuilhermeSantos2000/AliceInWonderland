@@ -10,7 +10,7 @@ public class camera : MonoBehaviour
 
     [SerializeField] private Vector2 minBounds; 
     [SerializeField] private Vector2 maxBounds; 
-    [SerializeField] private float smoothTime = 0.07f; 
+    [SerializeField] private float smoothTime = 0.09f; 
     private Vector3 velocity = Vector3.zero;
 
    

@@ -271,7 +271,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4379877064548195143}
   - component: {fileID: 45834012966052293}
-  - component: {fileID: 748330889990948067}
   m_Layer: 6
   m_Name: cheshire platform
   m_TagString: Untagged
@@ -343,15 +342,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 192.75986, y: 65.58362}
   m_EdgeRadius: 0
---- !u!114 &748330889990948067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5227475363322590317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c1551377ae527c43bb0ba9ae979aa0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
