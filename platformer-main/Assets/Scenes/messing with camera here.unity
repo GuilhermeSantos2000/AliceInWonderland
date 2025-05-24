@@ -4752,6 +4752,8 @@ MonoBehaviour:
   offset: {x: 0, y: 30, z: 0}
   maxspeed: 800
   pandown: 30
+  minBounds: {x: 0, y: 0}
+  maxBounds: {x: 0, y: 0}
 --- !u!1001 &1477146828
 PrefabInstance:
   m_ObjectHideFlags: 0
