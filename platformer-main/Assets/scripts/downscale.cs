@@ -5,6 +5,8 @@ public class particleBurst_dowscale : MonoBehaviour
    [SerializeField] private ParticleSystem burstParticleSystem;
    [SerializeField] private SpriteRenderer gem;
    [SerializeField] private bool burstAvailable = true;
+   [SerializeField] private AudioClip drinkMeSFX;
+    [SerializeField, Range(0f, 1f)] private float volume = 1f;
 
    private float scaleMultiplier = 0.5f; // multiplier for the scale of the character on collision with the gem
    private Vector3 originalScale; // original size of the character
@@ -18,11 +20,22 @@ public class particleBurst_dowscale : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && burstAvailable)
         {
+             
+            if (drinkMeSFX != null)
+            {
+                AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.clip = drinkMeSFX;
+                audioSource.volume = volume;
+                audioSource.playOnAwake = false;
+                audioSource.Play();
+                Destroy(audioSource, drinkMeSFX.length);
+            }
+
             float emissionDuration = burstParticleSystem.main.duration;
             ParticleSystem.EmissionModule emmisor = burstParticleSystem.emission;
 
             other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character down
-            
+
 
             emmisor.enabled = true;
             burstParticleSystem.Play();

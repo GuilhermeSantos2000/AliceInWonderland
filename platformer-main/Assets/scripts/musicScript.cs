@@ -8,15 +8,22 @@ public class musicScript : MonoBehaviour
 
     private AudioSource audioSource;
     private int currentTrack = 0;
+    private static musicScript instance;
 
     void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+
         audioSource = GetComponent<AudioSource>();
         audioSource.loop = false;
         audioSource.volume = volume;
         audioSource.playOnAwake = false;
-
-        DontDestroyOnLoad(gameObject);
     }
 
     void Start()

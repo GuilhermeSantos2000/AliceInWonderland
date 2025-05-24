@@ -11,6 +11,9 @@ public class cheshireManager : MonoBehaviour
     [SerializeField] private float platformCooldown = 2f;
     [SerializeField] private float platformTimer = 5f;
 
+    [SerializeField] private AudioClip activateSFX;
+    [SerializeField, Range(0f, 1f)] private float sfxVolume = 1f;
+
     private float[] platformCooldowns;
     private float[] platformTimers;
 
@@ -60,6 +63,15 @@ public class cheshireManager : MonoBehaviour
                         platform.SetActive(true);
                         platformTimers[i] = platformTimer;
                         
+                        if (activateSFX != null)
+                        {
+                            GameObject sfxPlayer = new GameObject("PlatformActivateSFX");
+                            AudioSource audioSource = sfxPlayer.AddComponent<AudioSource>();
+                            audioSource.clip = activateSFX;
+                            audioSource.volume = sfxVolume;
+                            audioSource.Play();
+                            Destroy(sfxPlayer, activateSFX.length);
+                        }
                     }
                 }
             }

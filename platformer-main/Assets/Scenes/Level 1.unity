@@ -6416,10 +6416,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetEntity: {fileID: 1728620708}
   offset: {x: 0, y: 30, z: 0}
-  maxspeed: 1000
-  pandown: 0
-  minBounds: {x: -127, y: -24}
-  maxBounds: {x: 1658, y: 60}
   smoothTime: 0.09
 --- !u!1 &1453130428
 GameObject:
@@ -10485,6 +10481,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggeringTag: Player
+  sfx: {fileID: 0}
+  sfxVolume: 1
 --- !u!1 &1922539134
 GameObject:
   m_ObjectHideFlags: 0

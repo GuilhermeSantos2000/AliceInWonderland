@@ -141,6 +141,8 @@ MonoBehaviour:
   burstParticleSystem: {fileID: 3819386205660472517}
   gem: {fileID: 8872029443565855098}
   burstAvailable: 1
+  drinkMeSFX: {fileID: 8300000, guid: 24d2567965eea0047b50ad7d2487bf7c, type: 3}
+  volume: 1
 --- !u!1 &7075012229965888195
 GameObject:
   m_ObjectHideFlags: 0

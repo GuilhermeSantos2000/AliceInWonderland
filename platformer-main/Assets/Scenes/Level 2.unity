@@ -119,6 +119,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &46968923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 46968925}
+  - component: {fileID: 46968924}
+  m_Layer: 0
+  m_Name: StartLevelSFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &46968924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46968923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56201bf1c8d315842a3c01bfad27ec7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startSFX: {fileID: 8300000, guid: 29f548ce1f0d12147b1924a612af0f37, type: 3}
+  volume: 1
+--- !u!4 &46968925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46968923}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1650.2341, y: 113.01011, z: 3.9939394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &78629028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2776,10 +2822,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetEntity: {fileID: 1124947254}
   offset: {x: 0, y: 30, z: 0}
-  maxspeed: 800
-  pandown: 0
-  minBounds: {x: -577, y: -149}
-  maxBounds: {x: 1598, y: 343}
   smoothTime: 0.09
 --- !u!1001 &1477146828
 PrefabInstance:
@@ -7297,6 +7339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggeringTag: Player
+  sfx: {fileID: 0}
+  sfxVolume: 1
 --- !u!4 &1909422244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
@@ -8060,3 +8104,4 @@ SceneRoots:
   - {fileID: 2200869616439175661}
   - {fileID: 1704685890}
   - {fileID: 1636755809}
+  - {fileID: 46968925}

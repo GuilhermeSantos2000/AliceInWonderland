@@ -141,6 +141,8 @@ MonoBehaviour:
   burstParticleSystem: {fileID: 3595926840474952879}
   gem: {fileID: 5603638446469317330}
   burstAvailable: 1
+  eatMeSFX: {fileID: 8300000, guid: 9d192e6db536c6b40ab7402131c8acc3, type: 3}
+  volume: 1
 --- !u!1 &3139922242031057298
 GameObject:
   m_ObjectHideFlags: 0

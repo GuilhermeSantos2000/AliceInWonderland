@@ -5,6 +5,8 @@ public class upscale : MonoBehaviour
    [SerializeField] private ParticleSystem burstParticleSystem;
    [SerializeField] private SpriteRenderer gem;
    [SerializeField] private bool burstAvailable = true;
+   [SerializeField] private AudioClip eatMeSFX;
+    [SerializeField, Range(0f, 1f)] private float volume = 1f;
 
    private float scaleMultiplier = 2f; // multiplier for the scale of the character on collision with the gem
    private Vector3 originalScale; // original size of the character
@@ -18,16 +20,27 @@ public class upscale : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && burstAvailable)
         {
+            if (eatMeSFX != null)
+            {
+                AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.clip = eatMeSFX;
+                audioSource.volume = volume;
+                audioSource.playOnAwake = false;
+                audioSource.Play();
+                Destroy(audioSource, eatMeSFX.length);
+            }
+            
             float emissionDuration = burstParticleSystem.main.duration;
             ParticleSystem.EmissionModule emmisor = burstParticleSystem.emission;
 
             other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character down
-            
+
 
             emmisor.enabled = true;
             burstParticleSystem.Play();
             burstAvailable = false;
             Destroy(gem, emissionDuration); 
+        
         }
     }
    

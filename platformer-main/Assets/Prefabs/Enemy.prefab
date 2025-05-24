@@ -182,6 +182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggeringTag: Player
+  sfx: {fileID: 8300000, guid: 71d9fec98fd3c2f498d8e005787cc21f, type: 3}
+  sfxVolume: 1
 --- !u!114 &2390610696458094945
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -149,3 +149,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToTeleport: {fileID: 0}
   teleportTarget: {fileID: 0}
+  teleportSFX: {fileID: 8300000, guid: e7cb311fc11940240b96b6354810cc65, type: 3}
+  volume: 1
