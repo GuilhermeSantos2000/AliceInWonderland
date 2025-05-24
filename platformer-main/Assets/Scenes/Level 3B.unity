@@ -173,6 +173,8 @@ MonoBehaviour:
   - {fileID: 643452918}
   playerTransform: {fileID: 59586877}
   minDistance: 2000
+  platformCooldown: 2
+  platformTimer: 5
 --- !u!4 &224845589 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7984478150725173648, guid: 51a664d3f24dfb644970e248ce39e307, type: 3}
@@ -1526,7 +1528,6 @@ GameObject:
   - component: {fileID: 1378518353}
   - component: {fileID: 1378518352}
   - component: {fileID: 1378518355}
-  - component: {fileID: 1378518356}
   - component: {fileID: 1378518357}
   m_Layer: 0
   m_Name: Main Camera
@@ -1653,42 +1654,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &1378518356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378518351}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9acff5f09ab58e479b806a70160b1c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 'Camera follows the closest object tagged with [Player].
-
-    It
-    will box the target within the given rect.
-
-    The camera won''t leave the area
-    defined by CameraBoundingBox.'
-  description: 
-  mode: 1
-  targetTag: {fileID: 11400000, guid: a6867e8f47561dd47addd221d82d3e1b, type: 2}
-  tagMode: 0
-  allowZoom: 1
-  zoomMargin: 1.1
-  minMaxSize: {x: 180, y: 360}
-  targetObject: {fileID: 0}
-  followSpeed: 0.9
-  rect:
-    serializedVersion: 2
-    x: -100
-    y: -100
-    width: 200
-    height: 200
-  cameraLimits: {fileID: 2092555407}
 --- !u!114 &1378518357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,6 +1672,7 @@ MonoBehaviour:
   pandown: 30
   minBounds: {x: -128, y: -18}
   maxBounds: {x: 4160, y: 534}
+  smoothTime: 0.09
 --- !u!1 &1405146478
 GameObject:
   m_ObjectHideFlags: 0
@@ -6755,6 +6721,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
+    - target: {fileID: 748330889990948067, guid: faeb1436469623c4fbc45a53dc4e8676, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4379877064548195143, guid: faeb1436469623c4fbc45a53dc4e8676, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2401
@@ -9317,6 +9287,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 384344962}
     m_Modifications:
+    - target: {fileID: 748330889990948067, guid: faeb1436469623c4fbc45a53dc4e8676, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4379877064548195143, guid: faeb1436469623c4fbc45a53dc4e8676, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

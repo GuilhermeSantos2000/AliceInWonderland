@@ -10,6 +10,8 @@ public class camera : MonoBehaviour
 
     [SerializeField] private Vector2 minBounds; 
     [SerializeField] private Vector2 maxBounds; 
+    [SerializeField] private float smoothTime = 0.07f; 
+    private Vector3 velocity = Vector3.zero;
 
    
     void Start()
@@ -27,23 +29,23 @@ public class camera : MonoBehaviour
 
         if (Vector3.Distance(transform.position, currentTarget) > 400f)
         {
-            transform.position = currentTarget; // this will snap the camera back to the target if it is too far away (currently set to 400f)
+            transform.position = currentTarget; // this will snap the camera back to the target if it is too far away 
         }
         else
         {
-            transform.position = Vector3.MoveTowards (transform.position, currentTarget, maxspeed * Time.fixedDeltaTime); // tis moves the camera towards the target defined
-        }
+             transform.position = Vector3.SmoothDamp(transform.position, currentTarget, ref velocity, smoothTime);
+    }
     }
 
     void LateUpdate()
     {
         Vector3 clampedPosition = transform.position;
 
-        // Limitar a posição da câmera nos eixos X e Y
+        // Limits the camera position within the defined bounds
         clampedPosition.x = Mathf.Clamp(clampedPosition.x, minBounds.x, maxBounds.x);
         clampedPosition.y = Mathf.Clamp(clampedPosition.y, minBounds.y, maxBounds.y);
 
-        // Aplicar a posição limitada
+        // applies the clamped position to the camera
         transform.position = clampedPosition;
     }
 
