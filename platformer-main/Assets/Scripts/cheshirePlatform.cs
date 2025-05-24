@@ -8,21 +8,8 @@ using UnityEngine.UI;
 public class cheshirePlatform : MonoBehaviour
 {
     [SerializeField] private Transform playerTransform; 
-   
-    [SerializeField] private float duration;
-    [SerializeField] private float cooldown;
     bool isOnCooldown = false;
-
-    private float timer = 0f; 
-    private float cooldownTimer = 0f;
-
     private int distance = 20; // Distance at which the player can activate the Cheshire platform
-
-    void Start()
-    {
-        
-
-    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) && isOnCooldown == false)
@@ -46,14 +33,6 @@ public class cheshirePlatform : MonoBehaviour
 
     }
 
-    private IEnumerator Cooldown(float cooldown)
-    {
-        yield return new WaitForSeconds(cooldown);
-        isOnCooldown = false;
-        Debug.Log("Cheshire platform is ready to be activated again!");
-    }
-
-    
 }
 
 

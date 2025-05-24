@@ -172,7 +172,7 @@ MonoBehaviour:
   - {fileID: 2018080489}
   - {fileID: 643452918}
   playerTransform: {fileID: 59586877}
-  minDistance: 2000
+  minDistance: 500
   platformCooldown: 2
   platformTimer: 5
 --- !u!4 &224845589 stripped
@@ -1249,11 +1249,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -612.46063
+      value: -608
       objectReference: {fileID: 0}
     - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 665.8528
+      value: 664
       objectReference: {fileID: 0}
     - target: {fileID: 931482798877645594, guid: f7487c6f24a05f6418b7f17dd153d297, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1671,11 +1671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetEntity: {fileID: 288152769}
-  offset: {x: 0, y: 30, z: 0}
-  maxspeed: 1000
-  pandown: 30
-  minBounds: {x: -128, y: -18}
-  maxBounds: {x: 4160, y: 534}
+  offset: {x: 0, y: 0, z: 0}
   smoothTime: 0.09
 --- !u!1 &1405146478
 GameObject:
@@ -6777,7 +6773,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 748330889990948067, guid: faeb1436469623c4fbc45a53dc4e8676, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9256,7 +9253,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.8807373, y: 1.9852905}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9266,7 +9263,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5000, y: 800}
+  m_Size: {x: 4996.2383, y: 803.9706}
   m_EdgeRadius: 0
 --- !u!4 &2092555408
 Transform:
@@ -9343,7 +9340,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 748330889990948067, guid: faeb1436469623c4fbc45a53dc4e8676, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

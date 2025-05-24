@@ -23,8 +23,6 @@ public class cheshireManager : MonoBehaviour
         }
     }
 
-    private float platformDuration = 5f;
-
     void Update()
     {
         for (int i = 0; i < cheshirePlatforms.Length; i++)
@@ -60,7 +58,7 @@ public class cheshireManager : MonoBehaviour
                     if (Vector2.Distance(playerTransform.position, platform.transform.position) <= minDistance)
                     {
                         platform.SetActive(true);
-                        platformTimers[i] = platformDuration;
+                        platformTimers[i] = platformTimer;
                         
                     }
                 }
