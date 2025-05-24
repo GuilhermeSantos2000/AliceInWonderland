@@ -2780,6 +2780,7 @@ MonoBehaviour:
   pandown: 0
   minBounds: {x: -577, y: -149}
   maxBounds: {x: 1598, y: 343}
+  smoothTime: 0.09
 --- !u!1001 &1477146828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6083,6 +6084,14 @@ PrefabInstance:
       propertyPath: nextSceneName
       value: Level 3A
       objectReference: {fileID: 0}
+    - target: {fileID: 3819386205660472517, guid: 3f81e64af308b4448b846c8da4c211c3, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.109803915
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819386205660472517, guid: 3f81e64af308b4448b846c8da4c211c3, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.4466369
+      objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 3f81e64af308b4448b846c8da4c211c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1376.2
@@ -6127,6 +6136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndPortalA
       objectReference: {fileID: 0}
+    - target: {fileID: 8872029443565855098, guid: 3f81e64af308b4448b846c8da4c211c3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9134089499466162720, guid: 3607eca3d0cf0ed4a8af45e6bb43e185, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

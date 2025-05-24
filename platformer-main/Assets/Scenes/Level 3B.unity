@@ -1317,6 +1317,10 @@ PrefabInstance:
       propertyPath: _explanation
       value: Switches to scene Level 3B
       objectReference: {fileID: 0}
+    - target: {fileID: 145841335384363596, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1951125945037088094, guid: de2f6635b54fa0a4995f9342915f981e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -115
