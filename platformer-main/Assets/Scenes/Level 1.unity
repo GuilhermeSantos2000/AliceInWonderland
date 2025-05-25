@@ -138,7 +138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32.5
+      value: -54.5
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.z
@@ -176,6 +176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8872029443565855098, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6723963429988506304, guid: 77f4d79e92943a54d8b3bf4e59b00bda, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7075012229965888195, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
@@ -442,7 +446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 95.6
+      value: 73.6
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6891,7 +6895,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69b6aa8d37dd6a340a7410e13f020978, type: 2}
+  - {fileID: 2100000, guid: e9ed14f42c6977847a5adaed0911530d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7256,7 +7260,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6754716, g: 0.6754716, b: 0.6754716, a: 0.8862745}
   m_Origin: {x: -17, y: -6, z: 0}
   m_Size: {x: 91, y: 19, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -7292,7 +7296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 95.6
+      value: 73.6
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10281,7 +10285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32
+      value: -54
       objectReference: {fileID: 0}
     - target: {fileID: 4991384803085866607, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10319,6 +10323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes
       objectReference: {fileID: 0}
+    - target: {fileID: 8872029443565855098, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6723963429988506304, guid: 77f4d79e92943a54d8b3bf4e59b00bda, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7075012229965888195, guid: 88e21fbfa30ef2047ac6121daa3cdc01, type: 3}
