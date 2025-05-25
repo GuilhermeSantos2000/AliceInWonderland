@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 62deeb6a8b4b332429347beb092392f9
+guid: de708e2008bec4b4ea45724f0cbdf2c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8452327916485485924
-    second: pixil-frame-0 - 2025-05-11T164147.320_0
+      213: -4979842139183069413
+    second: Mad Hatter Anim 6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 - 2025-05-11T164147.320_0
+      name: Mad Hatter Anim 6_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 5
-        width: 27
-        height: 23
+        x: 3
+        y: 12
+        width: 25
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4652c3b2573bc4570800000000000000
-      internalID: 8452327916485485924
+      spriteID: b17c87075fb04eab0800000000000000
+      internalID: -4979842139183069413
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pixil-frame-0 - 2025-05-11T164147.320_0: 8452327916485485924
+      Mad Hatter Anim 6_0: -4979842139183069413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
