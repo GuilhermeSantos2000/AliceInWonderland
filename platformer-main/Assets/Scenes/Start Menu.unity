@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3758e9c1ff7754f9aea5918a608c11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoveredImage: {fileID: -5115229876653667055, guid: 2c8c3383c037a4544815c04f8109ff21, type: 3}
+  hoveredImage: {fileID: 8989594539431450433, guid: ab5d69221630b7f439a5084caa14ac4c, type: 3}
   defaultImage: {fileID: -4781373940957465942, guid: 83f5f343a02975c4f870b93c87a0bd51, type: 3}
 --- !u!1 &485734809
 GameObject:
