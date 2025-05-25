@@ -8562,6 +8562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndPortalA
       objectReference: {fileID: 0}
+    - target: {fileID: 8318330304486965739, guid: 3f81e64af308b4448b846c8da4c211c3, type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 7634849893324876026, guid: 131c54c470b54a747856e4481786e0fe, type: 3}
     - target: {fileID: 8872029443565855098, guid: 3f81e64af308b4448b846c8da4c211c3, type: 3}
       propertyPath: m_Sprite
       value: 
