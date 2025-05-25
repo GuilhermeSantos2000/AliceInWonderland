@@ -80,6 +80,13 @@ public class player : MonoBehaviour
         }
 
         body.linearVelocity = currentVelocity;
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            Debug.Log("Grounded!");
+            isGrounded = true;
+            alreadyJumped = false;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collider)
