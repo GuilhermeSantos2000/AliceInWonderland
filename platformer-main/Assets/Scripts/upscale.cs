@@ -30,17 +30,17 @@ public class upscale : MonoBehaviour
                 audioSource.Play();
                 Destroy(audioSource, eatMeSFX.length);
             }
-
+            // turn on emmisor and play the particle burst only once
             float emissionDuration = burstParticleSystem.main.duration;
             ParticleSystem.EmissionModule emmisor = burstParticleSystem.emission;
-
-            other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character down
-
-
             emmisor.enabled = true;
             burstParticleSystem.Play();
             burstAvailable = false;
             Destroy(gem, emissionDuration);
+
+            other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character up
+
+
 
         }
     }
