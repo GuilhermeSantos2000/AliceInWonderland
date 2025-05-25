@@ -42,6 +42,8 @@ public class particleBurst_dowscale : MonoBehaviour
             Destroy(drinkMe, emissionDuration);
 
             other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character down
+            player.velocity = new Vector2(player.velocity.x, player.velocity.y -100f); // adjust velocity   
+            
 
             Animator anim = other.GetComponent<Animator>();
             if (anim != null && !string.IsNullOrEmpty(sizeBool))

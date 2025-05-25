@@ -37,7 +37,7 @@ public class upscale : MonoBehaviour
             ParticleSystem.EmissionModule emmisor = burstParticleSystem.emission;
 
             other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character down
-
+            player.velocity = new Vector2(player.velocity.x, player.velocity.y +100f); 
             Animator anim = other.GetComponent<Animator>();
             if (anim != null && !string.IsNullOrEmpty(sizeBool))
             {

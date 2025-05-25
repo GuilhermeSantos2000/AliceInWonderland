@@ -4,7 +4,7 @@ using UnityEngine.PlayerLoop;
 
 public class player : MonoBehaviour
 {
-    [SerializeField] private Vector2 velocity;
+    [SerializeField] public Vector2 velocity;
     [SerializeField] private Animator animator;
 
     [SerializeField] private string movingBool = "AliceIsRunning";
@@ -19,6 +19,7 @@ public class player : MonoBehaviour
     private float gracePeriod = 0.2f;
     private float? lastGroundedTime;
     private float? lastJumpTime;
+    bool alreadyJumped = false;
     
 
 
@@ -61,12 +62,13 @@ public class player : MonoBehaviour
             lastJumpTime = Time.time; // checks when the player last jumped
         }
 
-        if (Time.time - lastGroundedTime <= gracePeriod && Time.time - lastJumpTime <= gracePeriod)
+        if (!alreadyJumped && Time.time - lastGroundedTime <= gracePeriod && Time.time - lastJumpTime <= gracePeriod)
         {
             Debug.Log("Jumping!");
             currentVelocity.y = velocity.y;
             lastGroundedTime = null;
             lastJumpTime = null;
+            alreadyJumped = true;
         }
 
         if (movedir < 0)
@@ -83,8 +85,10 @@ public class player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collider)
     {
+        
         Debug.Log("Grounded!");
         isGrounded = true;
+        alreadyJumped = false;
     }
 
     private void OnCollisionExit2D(Collision2D collider)
