@@ -152,6 +152,7 @@ MonoBehaviour:
   teleportTarget: {fileID: 0}
   teleportSFX: {fileID: 8300000, guid: e7cb311fc11940240b96b6354810cc65, type: 3}
   volume: 1
+  animatorTrigger: EnterTeleport
 --- !u!95 &8836473331786391880
 Animator:
   serializedVersion: 7

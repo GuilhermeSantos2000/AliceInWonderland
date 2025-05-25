@@ -5681,6 +5681,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &921307916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6793875251026504360, guid: 66568ef2044a3654ab5971d3bb49d760, type: 3}
+  m_PrefabInstance: {fileID: 3316226606118327911}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &996585457
 GameObject:
   m_ObjectHideFlags: 0
@@ -11080,6 +11085,10 @@ PrefabInstance:
       propertyPath: objectToTeleport
       value: 
       objectReference: {fileID: 794119389}
+    - target: {fileID: -8672439855419472698, guid: d464f726d80ae56468a44aa59036729f, type: 3}
+      propertyPath: teleportTargetAnimator
+      value: 
+      objectReference: {fileID: 921307916}
     - target: {fileID: 1757640488813310578, guid: d464f726d80ae56468a44aa59036729f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1418.1

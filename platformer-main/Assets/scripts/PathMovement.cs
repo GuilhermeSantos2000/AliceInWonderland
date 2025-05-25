@@ -24,16 +24,23 @@ public class LoopingPathFollower : MonoBehaviour
         if (staticPositions == null || staticPositions.Length == 0)
             return;
 
-        Vector3 targetPoint = staticPositions[currentPointIndex];
-        Vector3 direction = (targetPoint - transform.position).normalized;
-
-        transform.position += direction * moveSpeed * Time.deltaTime;
-
-        // Check if close enough to the target point
-        if (Vector3.Distance(transform.position, targetPoint) < reachThreshold)
+        while (true)
         {
-            transform.position = targetPoint; // Snap to the point
-            currentPointIndex = (currentPointIndex + 1) % staticPositions.Length;
+            Vector3 targetPoint = staticPositions[currentPointIndex];
+            Vector3 direction = (targetPoint - transform.position).normalized;
+            float distance = Vector3.Distance(transform.position, targetPoint);
+
+            if (distance < reachThreshold)
+            {
+                transform.position = targetPoint;
+                currentPointIndex = (currentPointIndex + 1) % staticPositions.Length;
+                // Continue the loop in case we're still within reachThreshold of the next point
+            }
+            else
+            {
+                transform.position += direction * moveSpeed * Time.deltaTime;
+                break;
+            }
         }
     }
 }

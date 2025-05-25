@@ -4,8 +4,10 @@ public class Teleport : MonoBehaviour
 {
     [SerializeField] private GameObject objectToTeleport; // Object to be teleported
     [SerializeField] private Transform teleportTarget;    // Target object for teleportation
+    [SerializeField] private GameObject teleportTargetAnimator;
     [SerializeField] private AudioClip teleportSFX;
     [SerializeField, Range(0f, 1f)] private float volume = 1f;
+    [SerializeField] private string animatorTrigger = "EnterTeleport";
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,6 +18,18 @@ public class Teleport : MonoBehaviour
             if (teleportTarget != null)
             {
                 objectToTeleport.transform.position = teleportTarget.position;
+
+                Animator thisAnimator = GetComponent<Animator>();
+                if (thisAnimator != null && !string.IsNullOrEmpty(animatorTrigger))
+                {
+                    thisAnimator.SetTrigger(animatorTrigger);
+                }
+
+                Animator teleportAnimator = teleportTargetAnimator.GetComponent<Animator>();
+                if (teleportAnimator != null && !string.IsNullOrEmpty(animatorTrigger))
+                {
+                    teleportAnimator.SetTrigger(animatorTrigger);
+                }
             }
             if (teleportSFX != null)
             {
