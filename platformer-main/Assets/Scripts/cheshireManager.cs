@@ -1,10 +1,11 @@
-using OkapiKit.Editor;
+using System.Collections;
+
 using UnityEngine;
 
 public class cheshireManager : MonoBehaviour
 {
 
-    [SerializeField] private GameObject[] cheshirePlatforms;
+    [SerializeField] public GameObject[] cheshirePlatforms;
     [SerializeField] private Transform playerTransform;
     [SerializeField] private float minDistance = 20f;
 
@@ -38,6 +39,7 @@ public class cheshireManager : MonoBehaviour
                 {
                     cheshirePlatforms[i].SetActive(false);
                     platformCooldowns[i] = platformCooldown;
+                   
                 }
             }
 
@@ -47,8 +49,8 @@ public class cheshireManager : MonoBehaviour
             }
             else
             {
-                platformCooldowns[i] = 0f; 
-            } 
+                platformCooldowns[i] = 0f;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.F) && playerTransform != null)
@@ -62,7 +64,7 @@ public class cheshireManager : MonoBehaviour
                     {
                         platform.SetActive(true);
                         platformTimers[i] = platformTimer;
-                        
+
                         if (activateSFX != null)
                         {
                             GameObject sfxPlayer = new GameObject("PlatformActivateSFX");
@@ -76,6 +78,8 @@ public class cheshireManager : MonoBehaviour
                 }
             }
 
-            }
+        }
     }
+
+   
 }
