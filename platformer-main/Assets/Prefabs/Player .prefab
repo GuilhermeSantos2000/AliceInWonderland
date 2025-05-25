@@ -121,7 +121,6 @@ GameObject:
   - component: {fileID: 176564246306073154}
   - component: {fileID: 8882509518942335713}
   - component: {fileID: 1603248193539543171}
-  - component: {fileID: 376779330885119730}
   - component: {fileID: 5316175333543836415}
   - component: {fileID: 4359096048764081953}
   m_Layer: 0
@@ -268,52 +267,6 @@ CapsuleCollider2D:
   m_Offset: {x: 2, y: 21}
   m_Size: {x: 20, y: 42}
   m_Direction: 0
---- !u!61 &376779330885119730
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5177742486434129318}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: d7a12a7c307c58e43abc2d6ee1d101e7, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 2, y: 21}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 64, y: 60}
-    newSize: {x: 16, y: 15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 20, y: 42}
-  m_EdgeRadius: 0
 --- !u!95 &5316175333543836415
 Animator:
   serializedVersion: 7
@@ -324,7 +277,7 @@ Animator:
   m_GameObject: {fileID: 5177742486434129318}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6577285de641ad4c966ec9169599e3c, type: 2}
+  m_Controller: {fileID: 9100000, guid: f08f12948e45bc14aadcf4a7e95a8b78, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -349,6 +302,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 250, y: 850}
+  animator: {fileID: 0}
+  movingBool: AliceIsRunning
+  jumpingBool: AliceIsJumping
 --- !u!1 &5443933072441773794
 GameObject:
   m_ObjectHideFlags: 0

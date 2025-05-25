@@ -7,6 +7,8 @@ public class upscale : MonoBehaviour
    [SerializeField] private bool burstAvailable = true;
    [SerializeField] private AudioClip eatMeSFX;
     [SerializeField, Range(0f, 1f)] private float volume = 1f;
+    
+    [SerializeField] private string sizeBool = "AliceIsSmall";
 
    private float scaleMultiplier = 2f; // multiplier for the scale of the character on collision with the gem
    private Vector3 originalScale; // original size of the character
@@ -36,6 +38,11 @@ public class upscale : MonoBehaviour
 
             other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character down
 
+            Animator anim = other.GetComponent<Animator>();
+            if (anim != null && !string.IsNullOrEmpty(sizeBool))
+            {
+                anim.SetBool(sizeBool, false);
+            }
 
             emmisor.enabled = true;
             burstParticleSystem.Play();

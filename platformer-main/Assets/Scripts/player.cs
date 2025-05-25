@@ -5,10 +5,13 @@ using UnityEngine.PlayerLoop;
 public class player : MonoBehaviour
 {
     [SerializeField] private Vector2 velocity;
+    [SerializeField] private Animator animator;
+
+    [SerializeField] private string movingBool = "AliceIsRunning";
+    [SerializeField] private string jumpingBool = "AliceIsJumping";
 
     private Rigidbody2D body;
     private SpriteRenderer sprite;
-
     private Quaternion initialRotation;
 
     private bool isGrounded = true;
@@ -38,11 +41,19 @@ public class player : MonoBehaviour
 
         currentVelocity.x = movedir * velocity.x;
 
+        if (animator != null)
+            animator.SetBool(movingBool, Mathf.Abs(movedir) > 0.01f && isGrounded);
+
         if (isGrounded)
         {
             lastGroundedTime = Time.time; // checks when the player was last grounded
 
         }
+
+        bool doJump = Time.time - lastGroundedTime <= gracePeriod && Time.time - lastJumpTime <= gracePeriod;
+
+        if (animator != null)
+            animator.SetBool(jumpingBool, !isGrounded || doJump);
 
         if (Input.GetButtonDown("Jump"))
         {
