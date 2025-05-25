@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 250, y: 850}
-  animator: {fileID: 0}
+  animator: {fileID: 5316175333543836415}
   movingBool: AliceIsRunning
   jumpingBool: AliceIsJumping
 --- !u!1 &5443933072441773794
