@@ -3,7 +3,7 @@ using UnityEngine;
 public class particleBurst_dowscale : MonoBehaviour
 {
    [SerializeField] private ParticleSystem burstParticleSystem;
-   [SerializeField] private SpriteRenderer gem;
+   [SerializeField] private SpriteRenderer drinkMe;
    [SerializeField] private bool burstAvailable = true;
    [SerializeField] private AudioClip drinkMeSFX;
     [SerializeField, Range(0f, 1f)] private float volume = 1f;
@@ -32,9 +32,14 @@ public class particleBurst_dowscale : MonoBehaviour
                 audioSource.Play();
                 Destroy(audioSource, drinkMeSFX.length);
             }
-
+            
+            // turn on emmisor and play the particle burst only once
             float emissionDuration = burstParticleSystem.main.duration;
             ParticleSystem.EmissionModule emmisor = burstParticleSystem.emission;
+            emmisor.enabled = true;
+            burstParticleSystem.Play();
+            burstAvailable = false; 
+            Destroy(drinkMe, emissionDuration);
 
             other.transform.localScale = other.transform.localScale * scaleMultiplier; // scale the character down
 
@@ -44,10 +49,6 @@ public class particleBurst_dowscale : MonoBehaviour
                 anim.SetBool(sizeBool, true);
             }
 
-            emmisor.enabled = true;
-            burstParticleSystem.Play();
-            burstAvailable = false;
-            Destroy(gem, emissionDuration);
         }
     }
    

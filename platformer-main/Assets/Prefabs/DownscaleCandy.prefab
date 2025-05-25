@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   burstParticleSystem: {fileID: 3819386205660472517}
-  gem: {fileID: 8872029443565855098}
+  drinkMe: {fileID: 8872029443565855098}
   burstAvailable: 1
   drinkMeSFX: {fileID: 8300000, guid: 24d2567965eea0047b50ad7d2487bf7c, type: 3}
   volume: 0.5
