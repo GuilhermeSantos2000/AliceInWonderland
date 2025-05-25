@@ -87,7 +87,7 @@ public class player : MonoBehaviour
     {
         foreach (ContactPoint2D surface in collider.contacts)
         {
-            if (surface.normal.y > 0.5f)
+            if (surface.normal.y > 0.1f && collider.gameObject.layer == LayerMask.NameToLayer("RealGround"))
             {
                 Debug.Log("Grounded!");
                 isGrounded = true;
@@ -95,7 +95,6 @@ public class player : MonoBehaviour
             }
         }
     }
-
     private void OnCollisionExit2D(Collision2D collider)
     {
         Debug.Log("Not Grounded!");
