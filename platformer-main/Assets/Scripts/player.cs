@@ -13,7 +13,13 @@ public class player : MonoBehaviour
 
     private bool isGrounded = true;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private float gracePeriod = 0.2f;
+    private float? lastGroundedTime;
+    private float? lastJumpTime;
+
+
+
+   
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -24,7 +30,6 @@ public class player : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         float movedir = Input.GetAxis("Horizontal");
@@ -33,10 +38,23 @@ public class player : MonoBehaviour
 
         currentVelocity.x = movedir * velocity.x;
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (isGrounded)
+        {
+            lastGroundedTime = Time.time; // checks when the player was last grounded
+
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            lastJumpTime = Time.time; // checks when the player last jumped
+        }
+
+        if (Time.time - lastGroundedTime <= gracePeriod && Time.time - lastJumpTime <= gracePeriod)
         {
             Debug.Log("Jumping!");
             currentVelocity.y = velocity.y;
+            lastGroundedTime = null;
+            lastJumpTime = null;
         }
 
         if (movedir < 0)
