@@ -18,9 +18,10 @@ public class particleBurst_dowscale : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && burstAvailable)
+        player player = other.GetComponent<player>();
+        if (player && burstAvailable)
         {
-             
+
             if (drinkMeSFX != null)
             {
                 AudioSource audioSource = gameObject.AddComponent<AudioSource>();
@@ -40,7 +41,7 @@ public class particleBurst_dowscale : MonoBehaviour
             emmisor.enabled = true;
             burstParticleSystem.Play();
             burstAvailable = false;
-            Destroy(gem, emissionDuration); 
+            Destroy(gem, emissionDuration);
         }
     }
    
