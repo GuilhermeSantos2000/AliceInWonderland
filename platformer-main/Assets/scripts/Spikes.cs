@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Spikes : MonoBehaviour
 {
-    [SerializeField] private string triggeringTag = "Player";
+
     [SerializeField] private AudioClip sfx;
     [SerializeField, Range(0f, 1f)] private float sfxVolume = 1f;
 
@@ -12,7 +13,9 @@ public class Spikes : MonoBehaviour
     {
         if (triggered) return;
 
-        if (collision.gameObject.CompareTag(triggeringTag))
+        player player = collision.gameObject.GetComponent<player>();
+
+        if (player)
         {
             triggered = true;
             PlaySFXAndRestart();
@@ -30,7 +33,7 @@ public class Spikes : MonoBehaviour
             audioSource.volume = sfxVolume;
             audioSource.Play();
             Destroy(sfxPlayer, sfx.length);
-            Invoke(nameof(RestartScene), sfx.length);
+            StartCoroutine(RestartAfterSFX(sfx.length));
         }
         else
         {
@@ -41,5 +44,11 @@ public class Spikes : MonoBehaviour
     private void RestartScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private IEnumerator RestartAfterSFX(float soundEffect)
+    {
+        yield return new WaitForSeconds(soundEffect);
+        RestartScene();
     }
 }
