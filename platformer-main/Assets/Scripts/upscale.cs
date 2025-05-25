@@ -18,7 +18,8 @@ public class upscale : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && burstAvailable)
+        player player = other.GetComponent<player>();
+        if (player && burstAvailable)
         {
             if (eatMeSFX != null)
             {
@@ -29,7 +30,7 @@ public class upscale : MonoBehaviour
                 audioSource.Play();
                 Destroy(audioSource, eatMeSFX.length);
             }
-            
+
             float emissionDuration = burstParticleSystem.main.duration;
             ParticleSystem.EmissionModule emmisor = burstParticleSystem.emission;
 
@@ -39,8 +40,8 @@ public class upscale : MonoBehaviour
             emmisor.enabled = true;
             burstParticleSystem.Play();
             burstAvailable = false;
-            Destroy(gem, emissionDuration); 
-        
+            Destroy(gem, emissionDuration);
+
         }
     }
    
