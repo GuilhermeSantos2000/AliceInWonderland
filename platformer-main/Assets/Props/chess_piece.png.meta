@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 2b7b5c4407af7754e9133ee894933bc8
+guid: 8bf7b2305ff5ceb458baf5d68963e06e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4075597663856274068
-    second: pixil-frame-0_-_2025-04-07T210040.754_0
-  - first:
-      213: 6857055092880812352
-    second: pixil-frame-0_-_2025-04-07T210040.754_1
-  - first:
-      213: 14828414447885825
-    second: pixil-frame-0_-_2025-04-07T210040.754_2
-  - first:
-      213: -6723631723043803287
-    second: pixil-frame-0_-_2025-04-07T210040.754_3
-  - first:
-      213: -212231402050945228
-    second: pixil-frame-0_-_2025-04-07T210040.754_4
-  - first:
-      213: -6809852947370048020
-    second: pixil-frame-0_-_2025-04-07T210040.754_5
+      213: 5507299671571488936
+    second: chess_piece_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 0.45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,67 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0_-_2025-04-07T210040.754_0
+      name: chess_piece_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 331
-        width: 203
-        height: 63
+        x: 69
+        y: 5
+        width: 110
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 0, z: 0, w: 1}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49aa0995b7e6f8830800000000000000
-      internalID: 4075597663856274068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixil-frame-0_-_2025-04-07T210040.754_1
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 328
-        width: 182
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 049a178d647292f50800000000000000
-      internalID: 6857055092880812352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixil-frame-0_-_2025-04-07T210040.754_2
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 211
-        width: 171
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10e9fb74d5ea43000800000000000000
-      internalID: 14828414447885825
+      spriteID: 8a0e4a35fdbdd6c40800000000000000
+      internalID: 5507299671571488936
       vertices: []
       indices: 
       edges: []
@@ -197,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f5af010a08dbcb74cae168f7ed9adf11
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -207,12 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pixil-frame-0_-_2025-04-07T210040.754_0: 4075597663856274068
-      pixil-frame-0_-_2025-04-07T210040.754_1: 6857055092880812352
-      pixil-frame-0_-_2025-04-07T210040.754_2: 14828414447885825
-      pixil-frame-0_-_2025-04-07T210040.754_3: -6723631723043803287
-      pixil-frame-0_-_2025-04-07T210040.754_4: -212231402050945228
-      pixil-frame-0_-_2025-04-07T210040.754_5: -6809852947370048020
+      chess_piece_0: 5507299671571488936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
