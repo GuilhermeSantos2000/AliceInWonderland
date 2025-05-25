@@ -85,10 +85,15 @@ public class player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collider)
     {
-        
-        Debug.Log("Grounded!");
-        isGrounded = true;
-        alreadyJumped = false;
+        foreach (ContactPoint2D surface in collider.contacts)
+        {
+            if (surface.normal.y > 0.5f)
+            {
+                Debug.Log("Grounded!");
+                isGrounded = true;
+                alreadyJumped = false;
+            }
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collider)
