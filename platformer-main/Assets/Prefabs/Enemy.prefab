@@ -113,7 +113,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3097984911284516920, guid: dffbcdd43340e9449a65c834a0be3240, type: 3}
+  m_Sprite: {fileID: -5141267421207720030, guid: ece35fd1b25ae984882b9d7114191716, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -158,17 +158,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.012978673, y: -0.040911883}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.53, y: 0.78}
+    oldSize: {x: 0.8857143, y: 0.9142857}
     newSize: {x: 16, y: 16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.53, y: 0.78}
+  m_Size: {x: 0.65231264, y: 0.7978038}
   m_EdgeRadius: 0
 --- !u!114 &163704761784096109
 MonoBehaviour:
@@ -182,7 +182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86cba07869db624aab704ecaf56e599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggeringTag: Player
   sfx: {fileID: 8300000, guid: 71d9fec98fd3c2f498d8e005787cc21f, type: 3}
   sfxVolume: 1
 --- !u!114 &2390610696458094945
