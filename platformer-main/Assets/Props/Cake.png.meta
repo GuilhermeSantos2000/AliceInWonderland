@@ -3,8 +3,8 @@ guid: c6fe3f36096a77044a56e06ea3fa2335
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6794305457321429515
-    second: Cake_0
+      213: 8732635013323328055
+    second: cake_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 0.5
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cake_0
+      name: cake_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 72
-        height: 76
+        x: 9
+        y: 14
+        width: 142
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f5bbd03f27c5b1a0800000000000000
-      internalID: -6794305457321429515
+      spriteID: 73a8642f64d803970800000000000000
+      internalID: 8732635013323328055
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cake_0: -6794305457321429515
+      cake_0: 8732635013323328055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
