@@ -149,7 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264283195fc197e49aa129887bc9cca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggeringTag: Player
+  platformCollider: {fileID: 4584360007916364178}
+  platformRenderer: {fileID: 8145123904525448652}
   destructionDelay: 2
   respawnDelay: 5
   animator: {fileID: 6591237800212436345}

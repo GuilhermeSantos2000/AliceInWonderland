@@ -20,10 +20,10 @@ public class PlatformBreak : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        player player = collision.gameObject.GetComponent<player>();
+             player player = collision.gameObject.GetComponent<player>();
         if (player)
         {
-            if (collision.contacts[0].normal.y < -0.5f)
+                if (collision.contacts[0].normal.y < -0.5f)
             {
                 animator.SetTrigger("BreakThis");
                 destructionTimer = destructionDelay;
@@ -55,7 +55,7 @@ public class PlatformBreak : MonoBehaviour
 
     private void DestroyPlatform()
     {
-        foreach (var col in GetComponentsInChildren<Collider2D>())
+          foreach (var col in GetComponentsInChildren<Collider2D>())
         col.enabled = false;
         foreach (var rend in GetComponentsInChildren<Renderer>())
         rend.enabled = false;
